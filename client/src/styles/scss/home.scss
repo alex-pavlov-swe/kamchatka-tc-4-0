@@ -1,0 +1,83 @@
+// Styling for the masthead
+.top-image {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - #{$navbar-height});
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/bg-masthead.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h1 {
+    font-size: 2.25rem;
+    margin: 0px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+    p {
+      font-size: 1.15rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  button {
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 35px;
+    border: 2px solid white;
+    padding: 15px;
+    @include media-breakpoint-down(sm) {
+      padding: 10px;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    h1 {
+      margin: 80px;
+    }
+  }
+}
+
+// Info table below the main picture on the Home page
+#services {
+  //border-bottom: 50px solid $border-color;
+  margin: 0px;
+  padding: 50px;
+}
+
+// Styling for the All tours section on the landing page
+#tours-list {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $primary-background;
+  //padding: 30px;
+  //padding-left: 100px;
+  //padding-right: 100px;
+  @include media-breakpoint-down(sm) {
+    //padding-left: 20px;
+    //padding-right: 20px;
+  }
+  h3 {
+    margin-top: 10px;
+  }
+  h4 {
+    font-size: 1.2rem;
+    color: coral;
+  }
+}

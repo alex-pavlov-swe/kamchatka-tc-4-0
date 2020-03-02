@@ -1,0 +1,14 @@
+// Import custom variables (overrides Bootstrap default variables)
+@import './variables.scss';
+
+// Import Bootstrap
+@import 'bootstrap/scss/bootstrap.scss';
+
+@import './global.scss';
+@import './navbar.scss';
+@import './footer.scss';
+
+@import './home.scss';
+@import './tours.scss';
+@import './tours-top-image.scss';
+@import './contact-form.scss';

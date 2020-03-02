@@ -1,0 +1,7 @@
+/img
+/node_modules
+/client/node_modules
+/client/vendor
+/clent/img
+/client/build
+*.jpg

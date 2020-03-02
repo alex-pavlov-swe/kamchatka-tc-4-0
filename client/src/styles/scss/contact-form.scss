@@ -1,0 +1,40 @@
+#contact-form {
+  .alert-danger {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  .alert-success {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  padding: 25px;
+  textarea {
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+  }
+  a {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  @include media-breakpoint-up(md) {
+    textarea {
+      width: 60%;
+    }
+  }
+}
+#contacts {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  i {
+    margin: 20px;
+  }
+}

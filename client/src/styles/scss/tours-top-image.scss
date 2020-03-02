@@ -1,0 +1,104 @@
+.top-image-tour {
+  padding-bottom: calc(10rem - #{$navbar-height});
+  .row {
+    padding-top: 10rem;
+  }
+  h1 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  h3,
+  h4 {
+    color: white;
+  }
+  @include media-breakpoint-up(xl) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    h1 {
+      margin: 80px;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    height: 80vh;
+    min-height: 40rem;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+    p {
+      font-size: 1.15rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+#top-info-table {
+  margin-top: 15px;
+  margin-bottom: 0;
+  p {
+    font-size: 1.2rem;
+  }
+}
+#top-info-text {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 25px;
+  background-color: $card-header-background;
+  color: black;
+  img {
+    max-width: 350px;
+    float: left;
+    margin: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.top-image-tour-ksu {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-ksu/ksu.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.top-image-tour-avk {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-avk/avk.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.top-image-tour-patagonia {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-patagonia/patagonia.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}

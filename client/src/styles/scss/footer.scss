@@ -1,0 +1,22 @@
+footer {
+  padding: 1rem;
+  padding-top: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+  background-color: $secondary;
+  color: $white;
+  .btn {
+    width: 40px;
+    height: 40px;
+    padding: 7px 1px;
+    border-radius: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.copyright {
+  background-color: darken($secondary, 10%);
+}
