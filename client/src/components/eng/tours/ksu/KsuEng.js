@@ -1,23 +1,23 @@
 import React from 'react';
 import Contact from '../Contact';
-import AvkInfo from './AvkInfo';
-import AvkDays from './AvkDays';
-import AvkGallery from './AvkGallery';
+import KsuInfo from './KsuInfo';
+import KsuDays from './KsuDays';
+import KsuGallery from './KsuGallery';
 
-const Avk = () => {
+const KsuEng = () => {
   return (
     <div id="tour">
       {/* TOP IMAGE */}
-      <div className="top-image-tour top-image-tour-avk" id="top-image-home">
+      <div className="top-image-tour top-image-tour-ksu" id="top-image-home">
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
             <div className="col-lg-10">
-              <h3>28 ИЮЛЯ - 09 АВГУСТА 2020</h3>
-              <h3>16 - 28 АВГУСТА 2020</h3>
-              <h1>Активные Вулканы Камчатки</h1>
+              <h3>06 JULY - 19 JULY 2020</h3>
+              <h3>02 AUGUST - 15 AUGUST 2020</h3>
+              <h1>Kamchatka From the North to the South</h1>
               <h4>
-                Автомобильный тур к вулканам Толбачик, Ключевской, Мутновский,
-                Горелый с однодневными трекингами, морская прогулка
+                A trekking tour around Tolbachik and to the volcanoes of
+                Kluchevskaya range
               </h4>
             </div>
           </div>
@@ -27,20 +27,20 @@ const Avk = () => {
       <div className="container">
         <div className="row text-center" id="top-info-table">
           <div className="col">
-            <p>13 дней</p>
-            <p>76 000 рублей</p>
+            <p>14 days</p>
+            <p>64 000 rubles</p>
           </div>
           <div className="col">
-            <p>Трекинг налегке 5 дней (5 - 12 км в день)</p>
-            <p>1500 км на автомобиле</p>
+            <p>75 km trekking in 6 days</p>
+            <p>1500 km by car</p>
           </div>
           <div className="col">
-            <p>В палатке - 8 ночей</p>
-            <p>В гостинице - 4</p>
+            <p>Tents - 9 nights</p>
+            <p>Hotel - 4</p>
           </div>
           <div className="col">
-            <p>Группа - 20 человек</p>
-            <p>2 гида</p>
+            <p>The group - 20 people</p>
+            <p>2 guides</p>
           </div>
         </div>
       </div>
@@ -51,21 +51,20 @@ const Avk = () => {
             <div className="col-lg-12">
               <p>
                 <img
-                  src={require('../../../img/tour-ksu/ksu-map.jpg')}
+                  src={require('../../../../img/tour-ksu/ksu-map.jpg')}
                   alt="карта маршрута Камчатка с Севера на Юг"
                 />
-                Про маршрут "Активные Вулканы Камчатки" можно сказать примерно
-                то же самое что и про маршрут "Камчатка с Севера на Юг". Это
-                один из лучший и проверенных временем маршрутов на Камчатке. За
-                годы его существования в нашей компании это подтвердили уже
-                сотни прошедших по нему путешественников. Ключевская группа
-                вулканов всегда поражает своими масштабами, красотой и
-                разнообразием.
+                Камчатка с Севера на Юг - по мнению многих это самый лучший
+                пеший маршрут на Камчатке. За годы его существования в нашей
+                компании это подтвердили уже сотни прошедших по нему
+                путешественников. Ключевская группа вулканов всегда поражает
+                своими масштабами, красотой и разнообразием.
               </p>
               <p>
-                Отличие именно "Активных вулканов" в том что здесь нет пеших
-                переходов с рюкзаками. Группу всегда сопровождает Камаз, а все
-                походы будут однодневными, с возвращением в лагерь к вечеру.
+                Это именно пеший маршрут, нужно будет пройти 75 км за 6 дней по
+                абсолютно диким местам без людей, дорог и сотовой связи. Ночевки
+                в палатках. Все личные вещи, как и продукты, нужно нести в
+                рюкзаке за плечами.
               </p>
               <p>
                 На маршруте мы увидим величественную Ключевскую группу вулканов,
@@ -98,12 +97,12 @@ const Avk = () => {
       {/* DAYS and INFO */}
       <div className="container-fluid">
         <div className="row mb-4">
-          <AvkDays />
-          <AvkInfo />
+          <KsuDays />
+          <KsuInfo />
         </div>
       </div>
       <div className="container-fluid">
-        <AvkGallery />
+        <KsuGallery />
         <Contact />
       </div>
       {/* VIDEO */}
@@ -128,4 +127,4 @@ const Avk = () => {
   );
 };
 
-export default Avk;
+export default KsuEng;

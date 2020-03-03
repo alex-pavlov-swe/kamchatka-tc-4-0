@@ -37,7 +37,7 @@ const KsuDays = () => {
         <div className="card card-body collapse" id="collapse-1">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day1.jpg')}
+              src={require('../../../img/tour-mv/small/day1.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Прилет в аэропорт Петропавловска-Камчатского. Сразу отправляемся на
@@ -75,14 +75,14 @@ const KsuDays = () => {
             aria-controls="collapse-2"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 2. Переезд к Ключевской
-            группе вулканов (500км).
+            <i className="fas fa-plus mr-2"></i> День 2. Переезд к Берегу
+            Охотского моря, ночевка в палатках.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-2">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day2.jpg')}
+              src={require('../../../img/tour-mv/small/day2.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Рано утром выезжаем на север полуострова, где расположена самая
@@ -119,14 +119,14 @@ const KsuDays = () => {
             aria-controls="collapse-3"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 3. Переезд к вулкану
-            Толбачик (75км), шлаковые конусы 1975 года, лавовая пещера.
+            <i className="fas fa-plus mr-2"></i> День 3. Переезд в поселок
+            Паужетка, ночевка в частном доме.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-3">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day3.jpg')}
+              src={require('../../../img/tour-mv/small/day3.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Продолжаем путь к вулкану Толбачик, съезжаем на лесную дорогу и
@@ -169,14 +169,14 @@ const KsuDays = () => {
             aria-controls="collapse-4"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 4. Восхождение на вулкан
-            Плоский Толбачик (20 км пешком, набор высоты 2000м).
+            <i className="fas fa-plus mr-2"></i> День 4. Пеший переход 13 км от
+            границы Кроноцкого заповедника до кордона "Озерный", палатки.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-4">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day4.jpg')}
+              src={require('../../../img/tour-mv/small/day4.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Восхождение на вулкан Плоский Толбачик (3081 м), на вершине нас ждет
@@ -203,14 +203,14 @@ const KsuDays = () => {
             aria-controls="collapse-5"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 5. Резервный день на
-            случай непогоды.
+            <i className="fas fa-plus mr-2"></i> День 5. Экскурсия на Курильском
+            озере, палатки.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-5">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day5.jpg')}
+              src={require('../../../img/tour-mv/small/day5.jpg')}
               alt="Активные Вулканы Камчатки"
             />
           </p>
@@ -229,14 +229,14 @@ const KsuDays = () => {
             aria-controls="collapse-6"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 6. Переезд на северную
-            сторону вулкана Толбачик, к горе Копыто, установка лагеря.
+            <i className="fas fa-plus mr-2"></i> День 6. Выход с Курильского
+            озера (13 км пешком), посещение Кутхиных Батов, ночевка в Паужетке.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-6">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day6.jpg')}
+              src={require('../../../img/tour-mv/small/day6.jpg')}
               alt="Активные Вулканы Камчатки"
             />
           </p>
@@ -255,14 +255,14 @@ const KsuDays = () => {
             aria-controls="collapse-7"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 7. Радиальная прогулка по
-            окрестностям - виды на Ключевскую группу вулканов.
+            <i className="fas fa-plus mr-2"></i> День 7. Переезд по берегу
+            Охотского моря, палатки.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-7">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day7.jpg')}
+              src={require('../../../img/tour-mv/small/day7.jpg')}
               alt="Активные Вулканы Камчатки"
             />
           </p>
@@ -281,17 +281,12 @@ const KsuDays = () => {
             aria-controls="collapse-8"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 8. Переезд обратно в
-            Петропавловск-Камчатский займет весь день.
+            <i className="fas fa-plus mr-2"></i> День 8. Возвращение в гостиницу
+            в Паратунке. Окончание "медвежей части" программы.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-8">
-          <p>
-            <img
-              src={require('../../../img/tour-avk/small/day8.jpg')}
-              alt="Активные Вулканы Камчатки"
-            />
-          </p>
+          <p></p>
         </div>
       </div>
       {/* DAY 9 */}
@@ -314,7 +309,7 @@ const KsuDays = () => {
         <div className="card card-body collapse" id="collapse-9">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day9.jpg')}
+              src={require('../../../img/tour-mv/small/day9.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Морская экскурсия. Катер отправляется утром из морпорта
@@ -348,7 +343,7 @@ const KsuDays = () => {
         <div className="card card-body collapse" id="collapse-10">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day12.jpg')}
+              src={require('../../../img/tour-mv/small/day12.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Переезд в район вулкана Горелый. Восхождение к кратеру вулкана
@@ -378,7 +373,7 @@ const KsuDays = () => {
         <div className="card card-body collapse" id="collapse-11">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day13.jpg')}
+              src={require('../../../img/tour-mv/small/day13.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Экскурсия в кратер вулкана Мутновский. Внутри кратера легкий
@@ -450,7 +445,7 @@ const KsuDays = () => {
         <div className="card card-body collapse" id="collapse-13">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day14.jpg')}
+              src={require('../../../img/tour-mv/small/day13.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Окончание тура, трансфер в аэропорт с заездом на рыбный рынок и в

@@ -8,14 +8,14 @@ const ToursList = () => {
         <div className="row">
           {/*<!-- KSU -->*/}
           <div className="col-md-6 col-lg-4">
-            <a href="/ksu#tour">
+            <Link to="/ksu">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/ksu.jpg')}
                 alt=""
                 width="100%"
               />
-            </a>
+            </Link>
             <h3>Камчатка с Севера на Юг</h3>
             <h4>14 дней, 64 000 рублей</h4>
             <p>
@@ -26,13 +26,13 @@ const ToursList = () => {
           </div>
           {/*<!-- BPK -->*/}
           <div className="col-md-6 col-lg-4">
-            <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <Link className="portfolio-box" to="/bpk">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/bpk.jpg')}
                 alt=""
               />
-            </a>
+            </Link>
             <h3>Большое Путешествие по Камчатке</h3>
             <h4>9 дней, 58 000 рублей</h4>
             <p>
@@ -43,13 +43,13 @@ const ToursList = () => {
           </div>
           {/*<!-- AVK -->*/}
           <div className="col-md-6 col-lg-4">
-            <a className="portfolio-box" href="/avk#tour">
+            <Link className="portfolio-box" href="/avk#tour">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/avk.jpg')}
                 alt=""
               />
-            </a>
+            </Link>
             <h3>Активные Вулканы Камчатки</h3>
             <h4>9 дней, 76 000 рублей</h4>
             <p>
@@ -59,7 +59,7 @@ const ToursList = () => {
           </div>
           {/*<!-- MV -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link to="/ksu">
+            <Link to="/mv">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/mv.jpg')}
@@ -73,20 +73,20 @@ const ToursList = () => {
           </div>
           {/*<!-- PATAGONIA -->*/}
           <div className="col-md-6 col-lg-4">
-            <a className="portfolio-box" href="/patagonia#tour">
+            <Link className="portfolio-box" href="/patagonia#tour">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/patagonia.jpg')}
                 alt=""
               />
-            </a>
+            </Link>
             <h3>Осенняя Патагония</h3>
             <h4>14 дней, 2800 usd</h4>
             <p>Незабываемая поездка в горы Аргентины и Чили.</p>
           </div>
           {/*<!-- PHOTOTOUR -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="avk">
+            <Link className="portfolio-box" to="bfk">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/bfk.jpg')}

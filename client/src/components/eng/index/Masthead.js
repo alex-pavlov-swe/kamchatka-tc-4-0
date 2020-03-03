@@ -12,7 +12,7 @@ const Masthead = () => {
           </div>
           <div className="col-lg-8 align-bottom m-4">
             <a href="#tours-index">
-              <button className="btn btn-info">Find Itinerary</button>
+              <button className="btn btn-info">Choose Itinerary</button>
             </a>
           </div>
         </div>

@@ -3,10 +3,10 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 const images = [];
-const imageThumbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13];
+const imageThumbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14];
 
 for (let i = 0; i < imageThumbs.length; i++) {
-  images.push(require('../../../img/tour-ksu/day' + imageThumbs[i] + '.jpg'));
+  images.push(require('../../../img/tour-avk/day' + imageThumbs[i] + '.jpg'));
 }
 
 export default class KsuGallery extends Component {
@@ -28,7 +28,7 @@ export default class KsuGallery extends Component {
           <div className="col-lg-3 col-sm-6" key={image}>
             <img
               className="img-fluid"
-              src={require('../../../img/tour-ksu/small/day' + image + '.jpg')}
+              src={require('../../../img/tour-avk/small/day' + image + '.jpg')}
               onClick={() =>
                 this.setState({ isOpen: true, photoIndex: image - 1 })
               }

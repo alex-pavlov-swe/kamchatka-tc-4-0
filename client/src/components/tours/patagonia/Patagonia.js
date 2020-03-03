@@ -12,9 +12,8 @@ const Patagonia = () => {
         <div className="container h-100">
           <div className="row h-100 justify-content-center text-center">
             <div className="col-lg-10">
-              <h3>06 ИЮЛЯ - 19 ИЮЛЯ 2020</h3>
-              <h3>02 АВГУСТА - 15 АВГУСТА 2020</h3>
-              <h1>Камчатка с Севера на Юг</h1>
+              <h3>11 - 24 АПРЕЛЯ 2021</h3>
+              <h1>Путешествие на край Земли</h1>
               <h4>
                 Пеший поход с рюкзаком по Ключевской группе вулканов, а также
                 вулканы Мутновский и Горелый
@@ -47,7 +46,7 @@ const Patagonia = () => {
         <div className="col-lg-12">
           <p>
             <img
-              // src={require('../../../img/tour-Patagonia/Patagonia-map.jpg')}
+              // src={require('../../../img/tour- ksu/ksu-map.jpg')}
               alt="карта маршрута Камчатка с Севера на Юг"
             />
             Камчатка с Севера на Юг - по мнению многих это самый лучший пеший
@@ -93,20 +92,6 @@ const Patagonia = () => {
       </div>
       <PatagoniaGallery />
       <Contact />
-      {/* VIDEO */}
-      <div className="row" id="video">
-        <div className="col-sm-12" id="main-video-wrapper">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/OnZ97O4ATSE"
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title="Kamchatka from the North to the Soth movie"
-          ></iframe>
-        </div>
-      </div>
     </div>
   );
 };

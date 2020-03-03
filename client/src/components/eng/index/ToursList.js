@@ -8,14 +8,14 @@ const ToursList = () => {
         <div className="row">
           {/*<!-- KSU -->*/}
           <div className="col-md-6 col-lg-4">
-            <a href="/ksu#tour">
+            <Link to="/eng/ksu#tour">
               <img
                 className="img-fluid"
-                src={require('../../../img/tours-index/ksu.jpg')}
+                src={require('../../../img/tours-index/eng/ksu.jpg')}
                 alt=""
                 width="100%"
               />
-            </a>
+            </Link>
             <h3>Kamchatka From the North to the South</h3>
             <h4>14 days, 64 000 rubles</h4>
             <p>
@@ -26,13 +26,13 @@ const ToursList = () => {
           </div>
           {/*<!-- BPK -->*/}
           <div className="col-md-6 col-lg-4">
-            <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <Link className="portfolio-box" to="img/portfolio/fullsize/2.jpg">
               <img
                 className="img-fluid"
-                src={require('../../../img/tours-index/bpk.jpg')}
+                src={require('../../../img/tours-index/eng/bpk.jpg')}
                 alt=""
               />
-            </a>
+            </Link>
             <h3>Kamchatka Discovery</h3>
             <h4>9 days, 58 000 rubles</h4>
             <p>
@@ -43,18 +43,18 @@ const ToursList = () => {
           </div>
           {/*<!-- AVK -->*/}
           <div className="col-md-6 col-lg-4">
-            <a className="portfolio-box" href="/avk#tour">
+            <Link className="portfolio-box" to="/avk#tour">
               <img
                 className="img-fluid"
-                src={require('../../../img/tours-index/avk.jpg')}
+                src={require('../../../img/tours-index/eng/avk.jpg')}
                 alt=""
               />
-            </a>
+            </Link>
             <h3>Kamchatka Active Volcanoes</h3>
             <h4>9 days, 76 000 rubles</h4>
             <p>
-              Автомобильный тур к вулканам Толбачик, Ключевской, Мутновский,
-              Горелый с однодневными трекингами, морская прогулка.
+              Classic tour to volcanoes Tolbachik, Kluchevskoy, Mutnovsku and
+              Gorely, no backpacks.
             </p>
           </div>
           {/*<!-- MV -->*/}
@@ -62,42 +62,42 @@ const ToursList = () => {
             <Link to="/ksu">
               <img
                 className="img-fluid"
-                src={require('../../../img/tours-index/mv.jpg')}
+                src={require('../../../img/tours-index/eng/mv.jpg')}
                 alt=""
                 width="100%"
               />
             </Link>
             <h3>Bears and Volcanoes</h3>
             <h4>8 days, 120 000 rubles</h4>
-            <p>Наблюдение за медведями на Курильском озере.</p>
+            <p>Observing bears of Kuril Lake in their natural habitat.</p>
           </div>
           {/*<!-- PATAGONIA -->*/}
           <div className="col-md-6 col-lg-4">
-            <a className="portfolio-box" href="/patagonia#tour">
+            <Link className="portfolio-box" to="/patagonia#tour">
               <img
                 className="img-fluid"
-                src={require('../../../img/tours-index/patagonia.jpg')}
-                alt=""
-              />
-            </a>
-            <h3>Осенняя Патагония</h3>
-            <h4>14 days, 2800 usd</h4>
-            <p>Незабываемая поездка в горы Аргентины и Чили.</p>
-          </div>
-          {/*<!-- PHOTOTOUR -->*/}
-          <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="avk">
-              <img
-                className="img-fluid"
-                src={require('../../../img/tours-index/bfk.jpg')}
+                src={require('../../../img/tours-index/eng/patagonia.jpg')}
                 alt=""
               />
             </Link>
-            <h3>Grand Photography Tours</h3>
+            <h3>Patagonia in Autumn</h3>
+            <h4>14 days, 2800 usd</h4>
+            <p>Unforgettable trip to the mountains of Argentina and Chile.</p>
+          </div>
+          {/*<!-- PHOTOTOUR -->*/}
+          <div className="col-md-6 col-lg-4">
+            <Link className="portfolio-box" to="/eng/bfk">
+              <img
+                className="img-fluid"
+                src={require('../../../img/tours-index/eng/bfk.jpg')}
+                alt=""
+              />
+            </Link>
+            <h3>Grand Photography Tour</h3>
             <h4>15 days, 139 000 rubles</h4>
             <p>
-              Самые привлекательные места для фотографов в правильное время -
-              Ключевская группа вулканов, Южные вулканы.
+              Two weeks special itinerary for photographers, chasing light in
+              the most beautiful spots.
             </p>
           </div>
         </div>

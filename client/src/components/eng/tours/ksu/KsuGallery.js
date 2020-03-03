@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 const images = [];
-const imageThumbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+const imageThumbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13];
 
 for (let i = 0; i < imageThumbs.length; i++) {
   images.push(
-    require('../../../img/tour-patagonia/day' + imageThumbs[i] + '.jpg')
+    require('../../../../img/tour-ksu/day' + imageThumbs[i] + '.jpg')
   );
 }
 
@@ -30,13 +29,13 @@ export default class KsuGallery extends Component {
           <div className="col-lg-3 col-sm-6" key={image}>
             <img
               className="img-fluid"
-              src={require('../../../img/tour-patagonia/small/day' +
+              src={require('../../../../img/tour-ksu/small/day' +
                 image +
                 '.jpg')}
               onClick={() =>
                 this.setState({ isOpen: true, photoIndex: image - 1 })
               }
-              alt="Камчатка с Севера на Юг"
+              alt="Kachatka From the North to the South"
             />
           </div>
         ))}

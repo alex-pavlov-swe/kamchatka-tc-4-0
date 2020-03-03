@@ -1,46 +1,45 @@
 import React from 'react';
 import Contact from '../Contact';
-import AvkInfo from './AvkInfo';
-import AvkDays from './AvkDays';
-import AvkGallery from './AvkGallery';
+import MvInfo from './MvInfo';
+import MvDays from './MvDays';
+import MvGallery from './MvGallery';
 
-const Avk = () => {
+const Mv = () => {
   return (
     <div id="tour">
       {/* TOP IMAGE */}
-      <div className="top-image-tour top-image-tour-avk" id="top-image-home">
+      <div className="top-image-tour top-image-tour-mv" id="top-image-home">
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
-            <div className="col-lg-10">
-              <h3>28 ИЮЛЯ - 09 АВГУСТА 2020</h3>
-              <h3>16 - 28 АВГУСТА 2020</h3>
-              <h1>Активные Вулканы Камчатки</h1>
-              <h4>
-                Автомобильный тур к вулканам Толбачик, Ключевской, Мутновский,
-                Горелый с однодневными трекингами, морская прогулка
-              </h4>
-            </div>
+            <div className="col-lg-10 align-bottom"></div>
           </div>
         </div>
       </div>
       {/* TOP INFO TABLE */}
       <div className="container">
+        <div className="row text-center">
+          <div className="col">
+            <p id="mv_header">Медведи и Вулканы</p>
+          </div>
+        </div>
+      </div>
+      <div className="container">
         <div className="row text-center" id="top-info-table">
           <div className="col">
-            <p>13 дней</p>
-            <p>76 000 рублей</p>
+            <p>14 дней</p>
+            <p>180 000 рублей</p>
           </div>
           <div className="col">
-            <p>Трекинг налегке 5 дней (5 - 12 км в день)</p>
-            <p>1500 км на автомобиле</p>
+            <p>Трекинг: 5 - 12 км в день</p>
+            <p>800 км на автомобиле</p>
           </div>
           <div className="col">
-            <p>В палатке - 8 ночей</p>
+            <p>В палатке - 9 ночей</p>
             <p>В гостинице - 4</p>
           </div>
           <div className="col">
-            <p>Группа - 20 человек</p>
-            <p>2 гида</p>
+            <p>Группа - 10 человек</p>
+            <p>1 гид</p>
           </div>
         </div>
       </div>
@@ -98,12 +97,12 @@ const Avk = () => {
       {/* DAYS and INFO */}
       <div className="container-fluid">
         <div className="row mb-4">
-          <AvkDays />
-          <AvkInfo />
+          <MvDays />
+          <MvInfo />
         </div>
       </div>
       <div className="container-fluid">
-        <AvkGallery />
+        <MvGallery />
         <Contact />
       </div>
       {/* VIDEO */}
@@ -128,4 +127,4 @@ const Avk = () => {
   );
 };
 
-export default Avk;
+export default Mv;

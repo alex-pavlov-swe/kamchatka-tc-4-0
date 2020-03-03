@@ -77,6 +77,19 @@
   background-size: cover;
 }
 
+.top-image-tour-bpk {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-bpk/bpk.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .top-image-tour-avk {
   background: linear-gradient(
       to bottom,
@@ -84,6 +97,19 @@
       #{fade-out($black, 0.8)} 100%
     ),
     url('../../img/tour-avk/avk.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.top-image-tour-mv {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-mv/mv.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -101,4 +127,28 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.top-image-tour-bfk {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-bfk/bfk.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#mv_header {
+  margin-top: -85px;
+  color: white;
+  font-size: 4rem;
+  @include media-breakpoint-down(sm) {
+    color: black;
+    margin: 5px;
+    font-size: 2rem;
+  }
 }
