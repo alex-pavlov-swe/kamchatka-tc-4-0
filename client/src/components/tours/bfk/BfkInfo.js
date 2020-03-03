@@ -1,6 +1,6 @@
 import React from 'react';
 
-const KsuInfo = () => {
+const BfkInfo = () => {
   const toggleArrowIcon = e => {
     /*
     if (e.target.nodeName === 'BUTTON') {
@@ -421,4 +421,4 @@ const KsuInfo = () => {
   );
 };
 
-export default KsuInfo;
+export default BfkInfo;

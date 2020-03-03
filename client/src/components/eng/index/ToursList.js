@@ -26,7 +26,7 @@ const ToursList = () => {
           </div>
           {/*<!-- BPK -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="img/portfolio/fullsize/2.jpg">
+            <Link className="portfolio-box" to="/eng/bpk">
               <img
                 className="img-fluid"
                 src={require('../../../img/tours-index/eng/bpk.jpg')}
@@ -43,7 +43,7 @@ const ToursList = () => {
           </div>
           {/*<!-- AVK -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="/avk#tour">
+            <Link className="portfolio-box" to="/eng/avk#tour">
               <img
                 className="img-fluid"
                 src={require('../../../img/tours-index/eng/avk.jpg')}
@@ -59,7 +59,7 @@ const ToursList = () => {
           </div>
           {/*<!-- MV -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link to="/ksu">
+            <Link to="/eng/mv">
               <img
                 className="img-fluid"
                 src={require('../../../img/tours-index/eng/mv.jpg')}
@@ -73,7 +73,7 @@ const ToursList = () => {
           </div>
           {/*<!-- PATAGONIA -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="/patagonia#tour">
+            <Link className="portfolio-box" to="/eng/patagonia#tour">
               <img
                 className="img-fluid"
                 src={require('../../../img/tours-index/eng/patagonia.jpg')}

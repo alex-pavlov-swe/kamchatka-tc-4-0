@@ -1,46 +1,45 @@
 import React from 'react';
 import Contact from '../Contact';
-import BfkInfo from './BfkInfo';
-import BfkDays from './BfkDays';
-import BfkGallery from './BfkGallery';
+import MvInfo from './MvInfo';
+import MvDays from './MvDays';
+import MvGallery from './MvGallery';
 
-const Bfk = () => {
+const MvEng = () => {
   return (
     <div id="tour">
       {/* TOP IMAGE */}
-      <div className="top-image-tour top-image-tour-bfk" id="top-image-home">
+      <div className="top-image-tour top-image-tour-mv" id="top-image-home">
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
-            <div className="col-lg-10">
-              <h3>AUGUST 29 - SEPTEMBER 12, 2021</h3>
-              <h1>Grand Photography Tour</h1>
-              <h4>
-                The most beautiful places in the right time - Kluchevskaya
-                volcanic range and the Sourthen volcanoes.
-              </h4>
-
-            </div>
+            <div className="col-lg-10 align-bottom"></div>
           </div>
         </div>
       </div>
       {/* TOP INFO TABLE */}
       <div className="container">
+        <div className="row text-center">
+          <div className="col">
+            <p id="mv_header">Bears and Volcanoes</p>
+          </div>
+        </div>
+      </div>
+      <div className="container">
         <div className="row text-center" id="top-info-table">
           <div className="col">
             <p>14 дней</p>
-            <p>64 000 рублей</p>
+            <p>180 000 рублей</p>
           </div>
           <div className="col">
-            <p>75км пешком с рюкзаком за 6 дней</p>
-            <p>1500 км на автомобиле</p>
+            <p>Трекинг: 5 - 12 км в день</p>
+            <p>800 км на автомобиле</p>
           </div>
           <div className="col">
             <p>В палатке - 9 ночей</p>
             <p>В гостинице - 4</p>
           </div>
           <div className="col">
-            <p>Группа - 20 человек</p>
-            <p>2 гида</p>
+            <p>Группа - 10 человек</p>
+            <p>1 гид</p>
           </div>
         </div>
       </div>
@@ -54,17 +53,18 @@ const Bfk = () => {
                   src={require('../../../../img/tour-ksu/ksu-map.jpg')}
                   alt="карта маршрута Камчатка с Севера на Юг"
                 />
-                Камчатка с Севера на Юг - по мнению многих это самый лучший
-                пеший маршрут на Камчатке. За годы его существования в нашей
-                компании это подтвердили уже сотни прошедших по нему
-                путешественников. Ключевская группа вулканов всегда поражает
-                своими масштабами, красотой и разнообразием.
+                Про маршрут "Активные Вулканы Камчатки" можно сказать примерно
+                то же самое что и про маршрут "Камчатка с Севера на Юг". Это
+                один из лучший и проверенных временем маршрутов на Камчатке. За
+                годы его существования в нашей компании это подтвердили уже
+                сотни прошедших по нему путешественников. Ключевская группа
+                вулканов всегда поражает своими масштабами, красотой и
+                разнообразием.
               </p>
               <p>
-                Это именно пеший маршрут, нужно будет пройти 75 км за 6 дней по
-                абсолютно диким местам без людей, дорог и сотовой связи. Ночевки
-                в палатках. Все личные вещи, как и продукты, нужно нести в
-                рюкзаке за плечами.
+                Отличие именно "Активных вулканов" в том что здесь нет пеших
+                переходов с рюкзаками. Группу всегда сопровождает Камаз, а все
+                походы будут однодневными, с возвращением в лагерь к вечеру.
               </p>
               <p>
                 На маршруте мы увидим величественную Ключевскую группу вулканов,
@@ -97,12 +97,12 @@ const Bfk = () => {
       {/* DAYS and INFO */}
       <div className="container-fluid">
         <div className="row mb-4">
-          <BfkDays />
-          <BfkInfo />
+          <MvDays />
+          <MvInfo />
         </div>
       </div>
       <div className="container-fluid">
-        <BfkGallery />
+        <MvGallery />
         <Contact />
       </div>
       {/* VIDEO */}
@@ -127,4 +127,4 @@ const Bfk = () => {
   );
 };
 
-export default Bfk;
+export default MvEng;

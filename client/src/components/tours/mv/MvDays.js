@@ -1,6 +1,6 @@
 import React from 'react';
 
-const KsuDays = () => {
+const MvDays = () => {
   const togglePlusIcon = e => {
     /*
     if (e.target.nodeName === 'BUTTON') {
@@ -457,4 +457,4 @@ const KsuDays = () => {
   );
 };
 
-export default KsuDays;
+export default MvDays;

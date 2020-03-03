@@ -43,7 +43,7 @@ const ToursList = () => {
           </div>
           {/*<!-- AVK -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" href="/avk#tour">
+            <Link className="portfolio-box" to="/avk#tour">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/avk.jpg')}
@@ -73,7 +73,7 @@ const ToursList = () => {
           </div>
           {/*<!-- PATAGONIA -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" href="/patagonia#tour">
+            <Link className="portfolio-box" to="/patagonia#tour">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/patagonia.jpg')}

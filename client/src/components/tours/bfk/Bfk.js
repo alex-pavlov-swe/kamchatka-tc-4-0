@@ -12,11 +12,11 @@ const BfkEng = () => {
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
             <div className="col-lg-10">
-              <h3>AUGUST 29 - SEPTEMBER 12, 2021</h3>
-              <h1>Grand Photography Tour</h1>
+            <h3>29 АВГУСТА - 12 СЕНТЯБРЯ 2021</h3>
+              <h1>Большой Фототур по Камчатке</h1>
               <h4>
-                The most beautiful places in the right time - Kluchevskaya
-                volcanic range and the Sourthen volcanoes.
+                Самые привлекательные места для фотографов в правильное время -
+                Ключевская группа вулканов, Южные вулканы
               </h4>
             </div>
           </div>

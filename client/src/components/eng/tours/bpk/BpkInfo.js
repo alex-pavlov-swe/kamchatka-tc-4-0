@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MvInfo = () => {
+const BpkInfo = () => {
   const toggleArrowIcon = e => {
     /*
     if (e.target.nodeName === 'BUTTON') {
@@ -421,4 +421,4 @@ const MvInfo = () => {
   );
 };
 
-export default MvInfo;
+export default BpkInfo;

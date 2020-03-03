@@ -37,7 +37,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-1">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day1.jpg')}
+              src={require('../../../../img/tour-avk/small/day1.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Прилет в аэропорт Петропавловска-Камчатского. Сразу отправляемся на
@@ -82,7 +82,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-2">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day2.jpg')}
+              src={require('../../../../img/tour-avk/small/day2.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Рано утром выезжаем на север полуострова, где расположена самая
@@ -126,7 +126,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-3">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day3.jpg')}
+              src={require('../../../../img/tour-avk/small/day3.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Продолжаем путь к вулкану Толбачик, съезжаем на лесную дорогу и
@@ -176,7 +176,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-4">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day4.jpg')}
+              src={require('../../../../img/tour-avk/small/day4.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Восхождение на вулкан Плоский Толбачик (3081 м), на вершине нас ждет
@@ -210,7 +210,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-5">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day5.jpg')}
+              src={require('../../../../img/tour-avk/small/day5.jpg')}
               alt="Активные Вулканы Камчатки"
             />
           </p>
@@ -236,7 +236,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-6">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day6.jpg')}
+              src={require('../../../../img/tour-avk/small/day6.jpg')}
               alt="Активные Вулканы Камчатки"
             />
           </p>
@@ -262,7 +262,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-7">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day7.jpg')}
+              src={require('../../../../img/tour-avk/small/day7.jpg')}
               alt="Активные Вулканы Камчатки"
             />
           </p>
@@ -288,7 +288,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-8">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day8.jpg')}
+              src={require('../../../../img/tour-avk/small/day8.jpg')}
               alt="Активные Вулканы Камчатки"
             />
           </p>
@@ -314,7 +314,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-9">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day9.jpg')}
+              src={require('../../../../img/tour-avk/small/day9.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Морская экскурсия. Катер отправляется утром из морпорта
@@ -348,7 +348,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-10">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day12.jpg')}
+              src={require('../../../../img/tour-avk/small/day12.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Переезд в район вулкана Горелый. Восхождение к кратеру вулкана
@@ -378,7 +378,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-11">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day13.jpg')}
+              src={require('../../../../img/tour-avk/small/day13.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Экскурсия в кратер вулкана Мутновский. Внутри кратера легкий
@@ -418,7 +418,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-12">
           <p>
             <img
-              src={require('../../../img/tour-bpk/small/day4.jpg')}
+              src={require('../../../../img/tour-bpk/small/day4.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Переезд к Мутновской геотермальной электростанции, пешая экскурсия к
@@ -450,7 +450,7 @@ const AvkDays = () => {
         <div className="card card-body collapse" id="collapse-13">
           <p>
             <img
-              src={require('../../../img/tour-avk/small/day14.jpg')}
+              src={require('../../../../img/tour-avk/small/day14.jpg')}
               alt="Активные Вулканы Камчатки"
             />
             Окончание тура, трансфер в аэропорт с заездом на рыбный рынок и в

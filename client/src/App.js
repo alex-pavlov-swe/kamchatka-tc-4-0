@@ -16,6 +16,10 @@ import Bfk from './components/tours/bfk/Bfk';
 // English Version
 import HomeEng from './components/eng/layout/Home';
 import KsuEng from './components/eng/tours/ksu/KsuEng';
+import BpkEng from './components/eng/tours/bpk/BpkEng';
+import AvkEng from './components/eng/tours/avk/AvkEng';
+import MvEng from './components/eng/tours/mv/MvEng';
+import PatagoniaEng from './components/eng/tours/patagonia/PatagoniaEng';
 import BfkEng from './components/eng/tours/bfk/BfkEng';
 
 function App() {
@@ -34,6 +38,10 @@ function App() {
         {/* English Version */}
         <Route exact path="/eng" component={HomeEng} />
         <Route exact path="/eng/ksu" component={KsuEng} />
+        <Route exact path="/eng/bpk" component={BpkEng} />
+        <Route exact path="/eng/avk" component={AvkEng} />
+        <Route exact path="/eng/mv" component={MvEng} />
+        <Route exact path="/eng/patagonia" component={PatagoniaEng} />
         <Route exact path="/eng/bfk" component={BfkEng} />
       </Switch>
       <Footer />

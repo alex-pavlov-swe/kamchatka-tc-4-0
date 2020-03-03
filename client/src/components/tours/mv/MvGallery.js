@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 const images = [];
 const imageThumbs = [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17];
@@ -9,7 +8,7 @@ for (let i = 0; i < imageThumbs.length; i++) {
   images.push(require('../../../img/tour-mv/day' + imageThumbs[i] + '.jpg'));
 }
 
-export default class KsuGallery extends Component {
+export default class MvGallery extends Component {
   constructor(props) {
     super(props);
 
