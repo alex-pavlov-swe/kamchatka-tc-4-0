@@ -1,11 +1,24 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { changeLanguage } from '../../actions/lang';
+import PropTypes from 'prop-types';
 
-const Footer = () => {
+const Footer = ({ lang: { lang }, changeLanguage }) => {
+  const changeLanguageHandle = newLang => async dispatch => {
+    if (lang !== newLang) {
+      localStorage.lang = newLang;
+      changeLanguage(newLang);
+    }
+  };
   return (
     <footer className="footer bg-secondary text-center">
       <div className="row">
         <div className="col-lg-4 mb-5 mb-lg-0">
-          <p>город Вилючиниск, Камчатский край 2020</p>
+          <p>
+            {lang === 'rus'
+              ? 'Петропавловск-Камчатский, 2020'
+              : 'Petropavlovsk-Kamchatsky, 2020'}
+          </p>
         </div>
 
         <div className="col-lg-4 mb-5 mb-lg-0">
@@ -44,14 +57,30 @@ const Footer = () => {
         </div>
 
         <div className="col-lg-4">
-          <p>ООО "Туристический Клуб Камчатка"</p>
+          <p>
+            {lang === 'rus'
+              ? 'ООО "Туристический Клуб Камчатка"'
+              : 'Kamchatka Travel Club, LLC'}
+          </p>
         </div>
       </div>
       <div className="row justify-content-center">
-        <p>Номер в реестре туроператоров России РТО 021443</p>
+        <p>
+          {lang === 'rus'
+            ? 'Номер в реестре туроператоров России РТО 021443'
+            : 'Federal Travel Agency License 021443'}
+        </p>
       </div>
     </footer>
   );
 };
 
-export default Footer;
+Footer.propTypes = {
+  lang: PropTypes.object.isRequired
+};
+
+const mapStateToProps = state => ({
+  lang: state.lang
+});
+
+export default connect(mapStateToProps, { changeLanguage })(Footer);

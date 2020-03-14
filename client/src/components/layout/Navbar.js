@@ -1,7 +1,17 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import { connect } from 'react-redux';
+import { changeLanguage } from '../../actions/lang';
+import PropTypes from 'prop-types';
 
-const Navbar = () => {
+const Navbar = ({ lang: { lang }, changeLanguage }) => {
+  const changeLanguageHandle = newLang => async dispatch => {
+    if (lang !== newLang) {
+      localStorage.lang = newLang;
+      changeLanguage(newLang);
+    }
+  };
+
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light fixed-top py-3"
@@ -9,7 +19,7 @@ const Navbar = () => {
     >
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="/#page-top">
-          Турклуб Камчатка
+          {lang === 'rus' ? 'Турклуб Камчатка' : 'Kamchatka Travel'}
         </a>
         <button
           className="navbar-toggler navbar-toggler-right"
@@ -25,34 +35,42 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto my-2 my-lg-0">
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/#tours-list">
-                Все туры
+              <Link
+                className="nav-link js-scroll-trigger"
+                to={lang === 'rus' ? '/#tours-list' : '/eng/#tours-list'}
+              >
+                {lang === 'rus' ? 'Все туры' : 'All Tours'}
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#services">
-                О Компании
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">
-                Отзывы
-              </a>
+              <Link className="nav-link js-scroll-trigger" href="#services">
+                {lang === 'rus' ? 'О Компании' : 'About'}
+              </Link>
             </li>
             <li className="nav-item mr-5">
               <a className="nav-link js-scroll-trigger" href="#contact-form">
-                Контакты
+                {lang === 'rus' ? 'Контакты' : 'Contact'}
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="eng/">
+              <Link
+                className="nav-link js-scroll-trigger"
+                href=""
+                onClick={changeLanguageHandle('eng')}
+                to="/eng"
+              >
                 Eng
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact-form">
+              <Link
+                className="nav-link js-scroll-trigger"
+                href="#contact-form"
+                onClick={changeLanguageHandle('rus')}
+                to="/"
+              >
                 Ru
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -61,4 +79,12 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+Navbar.propTypes = {
+  lang: PropTypes.object.isRequired
+};
+
+const mapStateToProps = state => ({
+  lang: state.lang
+});
+
+export default connect(mapStateToProps, { changeLanguage })(Navbar);

@@ -46,14 +46,13 @@ const Bpk = () => {
       </div>
       {/* TOP INFO TEXT and MAP */}
       <div id="top-info-text">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row text-center">
-            <div className="col-lg-12">
+            <div className="col-lg-6 col-md-12">              
+              <iframe src="https://www.google.com/maps/d/embed?mid=1Eui_0JOPLVWXD4z5rHSxS_Ifc2ngB5NU&hl=en" width="640" height="480" id="tour-map"></iframe>
+              </div>
+              <div className="col-lg-6 col-md-12">              
               <p>
-                <img
-                  src={require('../../../img/tour-ksu/ksu-map.jpg')}
-                  alt="карта маршрута Большое путешествие по Камчатке"
-                />
                 Большое путешествие по Камчатке - это классическая программа, в
                 которую включен довольно стандартный набор экскурсий - три
                 вулкана и сплав по реке. Вулканы Мутновский, Горелый и

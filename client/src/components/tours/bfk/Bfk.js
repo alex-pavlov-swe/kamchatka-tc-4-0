@@ -12,7 +12,7 @@ const BfkEng = () => {
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
             <div className="col-lg-10">
-            <h3>29 АВГУСТА - 12 СЕНТЯБРЯ 2021</h3>
+              <h3>29 АВГУСТА - 12 СЕНТЯБРЯ 2021</h3>
               <h1>Большой Фототур по Камчатке</h1>
               <h4>
                 Самые привлекательные места для фотографов в правильное время -
@@ -26,19 +26,19 @@ const BfkEng = () => {
       <div className="container">
         <div className="row text-center" id="top-info-table">
           <div className="col">
-            <p>14 дней</p>
-            <p>64 000 рублей</p>
+            <p>15 дней</p>
+            <p>139 000 рублей</p>
           </div>
           <div className="col">
-            <p>75км пешком с рюкзаком за 6 дней</p>
+            <p>Треккинг 2-10 км в день</p>
             <p>1500 км на автомобиле</p>
           </div>
           <div className="col">
             <p>В палатке - 9 ночей</p>
-            <p>В гостинице - 4</p>
+            <p>В гостинице - 5</p>
           </div>
           <div className="col">
-            <p>Группа - 20 человек</p>
+            <p>Группа - 12 человек</p>
             <p>2 гида</p>
           </div>
         </div>

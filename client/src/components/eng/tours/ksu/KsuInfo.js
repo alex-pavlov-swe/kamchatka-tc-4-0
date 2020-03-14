@@ -17,7 +17,7 @@ const KsuInfo = () => {
     <div className="col-lg-5 info">
       <div>
         <a className="btn-info p-2 mb-2" href="#contact-form">
-          ЗАБРОНИРОВАТЬ
+          BOOK THIS TOUR
         </a>
       </div>
       {/* What is included */}
@@ -33,7 +33,7 @@ const KsuInfo = () => {
             aria-controls="collapse-20"
             onClick={e => toggleArrowIcon(e)}
           >
-            В стоимость включено <i className="fas fa-chevron-down"></i>
+            What is icluded <i className="fas fa-chevron-down"></i>
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-20">
@@ -70,7 +70,7 @@ const KsuInfo = () => {
             aria-controls="collapse-21"
             onClick={e => toggleArrowIcon(e)}
           >
-            В стоимость не включено <i className="fas fa-chevron-down"></i>
+            What is NOT included <i className="fas fa-chevron-down"></i>
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-21">
@@ -94,7 +94,7 @@ const KsuInfo = () => {
             aria-controls="collapse-22"
             onClick={e => toggleArrowIcon(e)}
           >
-            Порядок оплаты и бронирования
+            How to book
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>
@@ -144,7 +144,7 @@ const KsuInfo = () => {
             aria-controls="collapse-23"
             onClick={e => toggleArrowIcon(e)}
           >
-            Авиабилеты
+            Airplane tickets
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>
@@ -172,7 +172,7 @@ const KsuInfo = () => {
             aria-controls="collapse-30"
             onClick={e => toggleArrowIcon(e)}
           >
-            Список снаряжения
+            List of Equipment
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>
@@ -236,7 +236,7 @@ const KsuInfo = () => {
             aria-controls="collapse-24"
             onClick={e => toggleArrowIcon(e)}
           >
-            Сложность
+            Difficulty
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>
@@ -264,7 +264,7 @@ const KsuInfo = () => {
             aria-controls="collapse-25"
             onClick={e => toggleArrowIcon(e)}
           >
-            Погода
+            The Weather
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>
@@ -292,7 +292,7 @@ const KsuInfo = () => {
             aria-controls="collapse-26"
             onClick={e => toggleArrowIcon(e)}
           >
-            Питание на маршруте
+            Food
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>
@@ -320,7 +320,7 @@ const KsuInfo = () => {
             aria-controls="collapse-27"
             onClick={e => toggleArrowIcon(e)}
           >
-            Медведи на маршруте
+            Bears
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>
@@ -374,7 +374,7 @@ const KsuInfo = () => {
             aria-controls="collapse-27"
             onClick={e => toggleArrowIcon(e)}
           >
-            Мобильная связь
+            Mobile network
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>
@@ -398,7 +398,7 @@ const KsuInfo = () => {
             aria-controls="collapse-28"
             onClick={e => toggleArrowIcon(e)}
           >
-            Можно ли принять участие если нет опыта
+            What if I have no experience
             <i className="fas fa-chevron-down"></i>
           </button>
         </div>

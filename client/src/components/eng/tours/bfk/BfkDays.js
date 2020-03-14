@@ -30,21 +30,22 @@ const BfkDays = () => {
             aria-controls="collapse-1"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 1. Прилет на Камчатку.
+            <i className="fas fa-plus mr-2"></i> Day 1.
+            Petropavlovsk-Kamchatsky.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-1">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day1.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Встреча в аэропорте Петропавловска-Камчатского. Заселение в
-            гостиницу в курортной зоне Паратунка, двухместное размещение,
-            (туалет и душ - один на 2 номера), горячее питание включено (ужин,
-            завтрак), бассейн с природной горячей термальной водой. Знакомство с
-            группой и гидом, обсуждение планов. Поездка на сопку Мишенная в
-            центре Петропавловска, съемки на закате.
+            Arrival to Petropavlovsk-Kamchatsky airport, transfer to the hotel
+            in Paratunka - double rooms, natural thermal water swimming pool,
+            rest after long flight, acclimatization. Meeting with the group and
+            the guide, discussing plans. In the evening we drive to Mishennaya
+            hill in Petropavlovsk city center where we shoot the views of the
+            city, nearby volcanoes and Avacha bay.
           </p>
         </div>
       </div>
@@ -61,28 +62,21 @@ const BfkDays = () => {
             aria-controls="collapse-2"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 2. переезд в поселок
-            Козыревск.
+            <i className="fas fa-plus mr-2"></i> Day 2. Kozyrevsk.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-2">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day2.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Рано утром выезжаем на север полуострова, где расположена самая
-            масштабная, высокая и пожалуй самая интересная вулканическая группа
-            Камчатки. Здесь на сравнительно небольшой территории расположились:
-            самый высокий действующий вулкан Евразии - Ключевской (4750м), самый
-            сложный для восхождения на Камчатке вулкан Камень, место самого
-            мощного извержения в ХХ веке - вулкан Безымянный, а также новые и
-            старые Толбачинские вулканы, Овальная Зимина, Большая Удина,
-            Крестовский, Ушковский, в хорошую погоду вдалеке можно увидеть
-            вулкан Кизимен. Обедаем в Мильковской столовой посередине пути. К
-            вечеру прибываем в поселок Козыревск. Здесь нас ждут простые, но
-            уютные гостевые домики, баня, ужин. За день мы проедем 200 км по
-            асфальту и еще 300 км по грунтовке, дорога достаточно утомительная.
+            In the morning we start a long way to the north of the peninsula.
+            During the whole trip we will travel by oir 6-wheeled Kamaz off-road
+            vehicle with a comfortable interior and seats like in an airplane.
+            Usually it takes about 9 hours to reach Kozyrevsk settlement where
+            we stay for a night in a very simple but cozy wooden cabins with
+            Russian sauna available.
           </p>
         </div>
       </div>
@@ -99,26 +93,25 @@ const BfkDays = () => {
             aria-controls="collapse-3"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 3. район вулкана Толбачик.
+            <i className="fas fa-plus mr-2"></i> Day 3. Tolbachik volcano
+            region.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-3">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day3.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Переезд в район Толбачинского извержения 1975 и 2012 годов, который
-            расположен к югу от вулкана Толбачик, базовый лагерь турфирм
-            находится у сопки Клешня, (до извержения 2012 года лагерь назывался
-            "Ленинградка"). Этот район представляет из себя шлаковую пустыню с
-            застывшими лавовыми потоками разных лет, шлаковыми конусами 100-300
-            метров в высоту, напоминающих неземной пейзаж (лунный или
-            марсианский, кому что больше нравится), лавовые пещеры, а также
-            знаменитый "Мертвый Лес". Дорога от поселка Козыревск до места
-            лагеря занимает около 5 часов, середина дня будет занята обедом и
-            установкой лагеря, затем вечерние и при наличии погоды ночные съемки
-            в районе шлаковых конусов.
+            It takes about 5 hours off-road driving to reach the region of
+            Tolbachik eruption. The most famous eruption took place here in 1975
+            and the last one in 2012. The place is full with epic solid lava
+            flows and moon-like slag craters. There are also some interesting
+            lava caves and the Dead Forest which was burned by the eruption. We
+            settle our camp close to Tolbachik volcano right in the volcanic
+            desert, altitude of the camp is 1700 meters above the sea level, it
+            could be quite cold and windy, there is the lack of water here. From
+            now and on we live in tents by two.
           </p>
         </div>
       </div>
@@ -135,19 +128,20 @@ const BfkDays = () => {
             aria-controls="collapse-4"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 4. Район вулкана Толбачик.
+            <i className="fas fa-plus mr-2"></i> Day 4. Tolbachik volcano
+            region.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-4">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day4.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Два дня в районе Толбачинского извержения 1975 и 2012 годов. Мы
-            будем снимать вулканическую пустыню, шлаковые конусы, свежие
-            застывшие лавовые потоки, лавовые пещеры, мертвый лес. Размещение в
-            палатках.
+            We will choose the best locations on the sunrise and sunset to get
+            amazing photos. If the weather is suitable, we will shoot the night
+            sky in the Dead Forest, it's possible to make an astrophotography
+            session.
           </p>
         </div>
       </div>
@@ -164,16 +158,17 @@ const BfkDays = () => {
             aria-controls="collapse-5"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 5. Район вулкана Толбачик.
+            <i className="fas fa-plus mr-2"></i> Day 5. Tolbachik volcano
+            region.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-5">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day5.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Второй день в районе вулкана Толбачик.
+            Second day in the region of Tolbachik volcano.
           </p>
         </div>
       </div>
@@ -190,17 +185,17 @@ const BfkDays = () => {
             aria-controls="collapse-6"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 6. Козыревск.
+            <i className="fas fa-plus mr-2"></i> Day 6. Kozyrevsk.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-6">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day6.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            После съемок на рассвете мы переезжаем в поселок Козыревск,
-            размещаемся в местном гостевом домике, отдых, душ, баня.
+            After one more sunrise photo session we drive back to Kozyrevsk
+            guest house where we have some rest and go to the sauna..
           </p>
         </div>
       </div>
@@ -217,20 +212,24 @@ const BfkDays = () => {
             aria-controls="collapse-7"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 7. Гора Копыто.
+            <i className="fas fa-plus mr-2"></i> Day 7. The Valley of Giants.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-7">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day7.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Переезд на северный склон вулкана Толбачик, к горе Копыто. Здесь
-            открываются замечательные виды на самый высокий действующий вулкан
-            континента - Ключевскую сопку, а также на вулкан Камень. Экскурсия к
-            озеру с отражением вулканов, место иногда называют "Долиной
-            Великанов".
+            Relocation to the North slopes of Tolbachik volcano, making a camp
+            near the Hoof mountain, a hike to a nearby spot with amazing views
+            of Kluchevskaya and Kamen volcano. Kluchevskaya is the highest
+            volcano in Kamchatka and it is an active one. In some years it is
+            just smoking, in lucky ones there is a lava flow going down from its
+            top. By some people this place is called "The Valley Of Giants" and
+            it's famous for photos of Giants reflecting in the lake. Sunset and
+            sunrise shooting sessions, astrophotography session is also possible
+            depending on the weather.
           </p>
         </div>
       </div>
@@ -247,17 +246,16 @@ const BfkDays = () => {
             aria-controls="collapse-8"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 8. Козыревск.
+            <i className="fas fa-plus mr-2"></i> Day 8. Kozyrevsk.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-8">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day8.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            ППродолжаем съемки утром и во второй половине дня возвращаемся в
-            гостевой домик в поселке Козыревск.
+            After shooting on the sunrise, we go back to the lodge in Kozyrevsk.
           </p>
         </div>
       </div>
@@ -274,18 +272,17 @@ const BfkDays = () => {
             aria-controls="collapse-9"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 9. Гора Подкова.
+            <i className="fas fa-plus mr-2"></i> Day 9. Podkova Mountain.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-9">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day9.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Переезд на северные склоны вулкана Ключевской - к горе Подкова.
-            Установка лагеря. Съемки великолепной Ключевской группы вулканов с
-            нового ракурса.
+            Transfer to the North slopes of Kluchevskoy volcano. Shooting
+            magnificent views on Kluchevskoy volcanic range.
           </p>
         </div>
       </div>
@@ -302,17 +299,17 @@ const BfkDays = () => {
             aria-controls="collapse-10"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 10. Продолжаем съемки в
-            районе горы Подкова.
+            <i className="fas fa-plus mr-2"></i> Day 10. Podkoba Mountain.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-10">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day10.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
           </p>
+          Continue shooting in the area of Podkova mountain.
         </div>
       </div>
       {/* DAY 11 */}
@@ -328,12 +325,12 @@ const BfkDays = () => {
             aria-controls="collapse-11"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 11.
-            Петропавловск-Камчатский.
+            <i className="fas fa-plus mr-2"></i> Day 11.
+            Petropavlovsk-Kamchatsky.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-11">
-          <p>Переезд обратно в Петропавловск-Камчатский займет весь день.</p>
+          <p>The road back to our hotel in Paratunka takes the whole day.</p>
         </div>
       </div>
       {/* DAY 12 */}
@@ -349,19 +346,19 @@ const BfkDays = () => {
             aria-controls="collapse-12"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 12. Переезд к вулкану
-            Горелый (100км).
+            <i className="fas fa-plus mr-2"></i> Day 12. Gorely volcano.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-12">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day12.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Переезд к вулкану Горелый. При благоприятной погоде мы совершим
-            ночное восхождение на вулкан Горелый. Встретить рассвет на его
-            вершине - незабываемое зрелище.
+            Transfer to the region of Gorely and Mutnovsky volcano, settling a
+            camp. Depending on the weather and physical conditions of the group
+            we will make a night ascending to Gorely volcano in order to shoot
+            sunrise from its top.
           </p>
         </div>
       </div>
@@ -378,24 +375,16 @@ const BfkDays = () => {
             aria-controls="collapse-13"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 13. Восхождение к кратеру
-            вулкана Мутновский (15 км налегке), переезд в гостиницу (100км).
+            <i className="fas fa-plus mr-2"></i> Day 13. Mutnovsly volcano.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-13">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day13.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Экскурсия в кратер вулкана Мутновский. Абсолютная высота Мутновского
-            - 2323м, один из крупнейших вулканов юга Камчатки, за исторический
-            период времени вулкан извергался не менее 16 раз. Наиболее сильное
-            извержение произошло в 1848 году. Самое недавнее извержение
-            приходится на 2000 год. Имеет сложное строение - несколько сросшихся
-            кратеров. Через разрушенную стенку одного из кратеров туристы могут
-            пройти внутрь мимо высоких отвесных скал и увидеть интенсивную
-            фумарольную деятельность внутри.
+            Trekking inside the active crater of Mutnovsky volcano.
           </p>
         </div>
       </div>{' '}
@@ -412,24 +401,17 @@ const BfkDays = () => {
             aria-controls="collapse-14"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 13. Восхождение к кратеру
-            вулкана Мутновский (15 км налегке), переезд в гостиницу (100км).
+            <i className="fas fa-plus mr-2"></i> Day 14. Snow cave.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-14">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day14.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Экскурсия в кратер вулкана Мутновский. Абсолютная высота Мутновского
-            - 2323м, один из крупнейших вулканов юга Камчатки, за исторический
-            период времени вулкан извергался не менее 16 раз. Наиболее сильное
-            извержение произошло в 1848 году. Самое недавнее извержение
-            приходится на 2000 год. Имеет сложное строение - несколько сросшихся
-            кратеров. Через разрушенную стенку одного из кратеров туристы могут
-            пройти внутрь мимо высоких отвесных скал и увидеть интенсивную
-            фумарольную деятельность внутри.
+            "Dangerous" Waterfall and snow caves on the slopes of Mutnovsky
+            volcano. In the evening we return back to a hotel.
           </p>
         </div>
       </div>
@@ -446,18 +428,16 @@ const BfkDays = () => {
             aria-controls="collapse-15"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 15. Рыбный рынок, магазин
-            сувениров, трансфер в аэропорт.
+            <i className="fas fa-plus mr-2"></i> Day 15. Departure.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-15">
           <p>
             <img
               src={require('../../../../img/tour-bfk/small/day15.jpg')}
-              alt="Большой Фототур по Камчатке"
+              alt="Grand Photography Tour to Kamchatka"
             />
-            Окончание тура, трансфер в аэропорт с заездом на рыбный рынок и в
-            магазин сувениров.
+            Fish market and gifts shop, then the airport. Goodbye, Kamchatka!
           </p>
         </div>
       </div>

@@ -63,8 +63,7 @@ const KsuDays = () => {
             aria-controls="collapse-2"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 2. Переезд к Ключевской
-            группе вулканов (500км).
+            <i className="fas fa-plus mr-2"></i> Day 2. Kozyrevsk.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-2">
@@ -73,24 +72,15 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day2.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Рано утром выезжаем на север полуострова, где расположена самая
-            масштабная, высокая и пожалуй самая интересная вулканическая группа
-            Камчатки. Здесь на сравнительно небольшой территории расположились:
-            самый высокий действующий вулкан Евразии - Ключевской (4750м), самый
-            сложный для восхождения на Камчатке вулкан Камень, место самого
-            мощного извержения в ХХ веке - вулкан Безымянный, а также новые и
-            старые Толбачинские вулканы, Овальная Зимина, Большая Удина,
-            Крестовский, Ушковский, в хорошую погоду вдалеке можно увидеть
-            вулкан Кизимен.
-          </p>
-          <p>
-            Обедаем в Мильковской столовой посередине пути. К вечеру прибываем в
-            поселок Козыревск. Здесь нас ждут простые, но уютные гостевые
-            домики, баня, ужин.
-          </p>
-          <p>
-            За Day мы проедем 200 км по асфальту и еще 300 км по грунтовой
-            дороге, дорога достаточно утомительная.
+            Early in the morning we start a long way to the north of the
+            peninsula in order to reach Kluchevskoy nature park, about 500
+            kilometres to go by car. Our target is to see the highest active
+            volcano on the continent, the most difficult to climb the untouched
+            Kamen volcano, the place of the most powerful eruption of the 20th
+            century - Bezymianny volcano, furthermore - new and old Tolbachik
+            volcanoes, 1975 eruption place with great volcanic desert and still
+            hot craters. Today we stay for a night in a lodge in a small
+            Kozyrevsk village.
           </p>
         </div>
       </div>
@@ -107,8 +97,8 @@ const KsuDays = () => {
             aria-controls="collapse-3"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 3. Переезд к вулкану
-            Толбачик (75км), шлаковые конусы 1975 года, лавовая пещера.
+            <i className="fas fa-plus mr-2"></i> Day 3. Slag cones, Dead Forest
+            of Tolbachik.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-3">
@@ -117,30 +107,11 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day3.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Продолжаем путь к вулкану Толбачик, съезжаем на лесную дорогу и
-            преодолев еще 70 километров утомительной лесной дороги (4-5 часов
-            пути) с авто-бродом реки Студеная, попадаем в район Большого
-            Трещинного Толбачинского Извержения (БТТИ), произошедшего в 1975
-            году и образовавшего новую вулканическую пустыню. В декабре 2012
-            года неподалеку началось Новое Трещинное извержение, его
-            деятельность закончилась совсем недавно, а последствия можно будет
-            наблюдать долгие годы.
-          </p>
-          <p>
-            Подъезжаем на машине к интересным лавовым пещерам, длиной до 50
-            метров, поднимаемся на новые вулканы (шлаковые конусы высотой до 300
-            метров), где можно наблюдать гигантский старый лавовый поток,
-            застывшие лавовые реки и где до сих пор сохранился жар недавнего
-            извержения - земля горячая и можно зажечь палку, закопав ее в
-            горячие породы. Также наблюдаем последствия Нового Трещинного
-            извержения 2012-2013 годов.
-          </p>
-          <p>
-            К вечеру ставим палаточный лагерь в районе сопки "Клешня". Высота
-            лагеря - 1300 метров, вода здесь в большом дефиците (есть небольшой
-            родничок и с собой мы привозим несколько сотен литров), погода
-            неустойчивая, часто дуют сильнейшие ветра, необходима хорошая теплая
-            одежда и прочная ветроустойчивая палатка.
+            Our off-road Kamaz vehicle brings us to the region of Tolbachik
+            eruption that took place in 1975 and again in 2012. We settle our
+            tents right on the slag of those eruptions. After lunch we visit
+            slag cones of the 1975 eruption, so called Dead Forest and a lave
+            cave. From no and on we live in tents.
           </p>
         </div>
       </div>
@@ -157,8 +128,7 @@ const KsuDays = () => {
             aria-controls="collapse-4"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 4. Восхождение на вулкан
-            Плоский Толбачик (20 км пешком, набор высоты 2000м).
+            <i className="fas fa-plus mr-2"></i> Day 4.Plosky Tolbachik.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-4">
@@ -167,14 +137,11 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day4.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Восхождение на вулкан Плоский Толбачик (3081 м), на вершине нас ждет
-            гигантский кратер около 2 км в диаметре, со стенок которого
-            ежеминутно обрушиваются камнепады, красивый вид на юг - вся "лунная"
-            вулканическая пустыня с многочисленными шлаковыми конусами.
-            Восхождение достаточно сложное физически, набор высоты составляет
-            2000 метров, по расстоянию предстоит пройти около 20 километров (без
-            рюкзаков, налегке) сложного рельефа. Желающие могут остаться в
-            лагере.
+            Ascent Plosky Tolbachik volcano, 3081 meters above the sea level (we
+            start from the point 1700 meters above the sea level). It takes
+            about five hours to get to the top and see a great view of the huge
+            crater two kilometers in diameter, wonderful scenery to the south -
+            volcanic desert and cones.
           </p>
         </div>
       </div>
@@ -191,8 +158,7 @@ const KsuDays = () => {
             aria-controls="collapse-5"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 5. Переход к домику на реке
-            Толуд (15 км с рюкзаком).
+            <i className="fas fa-plus mr-2"></i> Day 5. Tolud.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-5">
@@ -201,13 +167,7 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day5.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Снимаем лагерь и начинаем обходить Толбачинские вулканы с востока -
-            идем к перевалу между вулканами Плоский Толбачик и Удина. Постепенно
-            выходим из пустыни на тундру и в зону кустарников, по пути
-            открываются интересные виды на вулканы Толбачик и Удина,
-            вулканическую пустыню, здесь часто попадаются следы медведя и лося,
-            можно встретить и зайца, ночуем на слиянии рек под перевалом Толуд.
-            Переход 15 километров.
+            Trekking to the border of the volcanic desert (12 kilometres).
           </p>
         </div>
       </div>
@@ -224,8 +184,8 @@ const KsuDays = () => {
             aria-controls="collapse-6"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 6. Переход в долину трех
-            вулканов (15 км с рюкзаком).
+            <i className="fas fa-plus mr-2"></i> Day 6. The valley between three
+            volcanoes.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-6">
@@ -234,11 +194,11 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day6.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Преодолеваем перевал Толуд (пологая травянистая седловина),
-            переходим в зеленую долину, зажатую между трех вулканов (Толбачик,
-            Удина, Зимина), отличные виды в хорошую погоду, частенько здесь
-            встречаются медведи, лисы, ночуем в палатках под перевалом
-            Толбачинский, дневной переход порядка 15 км.
+            Today we overcome the Tolud pass, go inside the mountain valley
+            between three volcanoes - Tolbachik, Udina and Zimina (12 more
+            kilometres to go). Many rapid mountain rivers cross the valley, the
+            tundra is reach with berries and mushrooms, high chances to see
+            bears, foxes, hairs in their natural habitat.
           </p>
         </div>
       </div>
@@ -255,8 +215,7 @@ const KsuDays = () => {
             aria-controls="collapse-7"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 7. Переход к кратеру Юпитер
-            (12 км с рюкзаком).
+            <i className="fas fa-plus mr-2"></i> Day 7. Mars Camp.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-7">
@@ -265,12 +224,12 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day7.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Проходим перевал Толбачинский, с него открывается отличный вид на
-            вулканы Камень, Безымянный и Ушковский. Останавливаемся на ночлег
-            под шлаковым кратером Юпитер, на границе огромного поля, покрытого
-            хаотичным нагромождением кусков лавы, частично поросших травой, где
-            местные зверьки - евражки (суслики) и тарбаганы (сурки) - устроили
-            себе целый город с разветвленной сетью тоннелей. Переход - 12 км.
+            12 more kilometres to go, Tolbachinsky pass to overcome and we reach
+            a camp near Mars slag cone. There are many fine little beasts here -
+            susliks (like gopher or squirrel) and marmots. They live inside
+            tunnels that were made under old solid lava flow. From here we can
+            observe a magnificent view on the giant volcanoes - Kluchevskoy,
+            Kamen and Bezymyanny.
           </p>
         </div>
       </div>
@@ -287,8 +246,7 @@ const KsuDays = () => {
             aria-controls="collapse-8"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 8. Радиальный выход на
-            плечо вулкана Зимина, налегке (15км пешком).
+            <i className="fas fa-plus mr-2"></i> Day 8. Polennica.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-8">
@@ -297,10 +255,13 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day8.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Прогулка налегке к шлаковым конусам Марс и Юпитер, горе Полленица
-            (сложенной из интересной породы, которая выглядит как блоки
-            правильно вытесанных поленьев), интересные виды на вулканы Камень,
-            Безымянный, Толбачики, Зимина.
+            We stay for two nights at the same camp site so today we walk with
+            little baggage, we climp up to Jupiter slag cone (20 minutes to go)
+            to watch beatifull sceneries of Tolbachik and Zimina volcanoes. We
+            also go to unique "Polennica" place which is made of volcanic rocks
+            of weird shapes that look like woodpile. If the weather is good we
+            can go up the shoulder of Zimina volcano and watch wonderful views
+            of Kluchevskoy volcano.
           </p>
         </div>
       </div>
@@ -317,8 +278,8 @@ const KsuDays = () => {
             aria-controls="collapse-9"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 9. Переход к ручью Бараний
-            (16км пешком с рюкзаком).
+            <i className="fas fa-plus mr-2"></i> Day 9. Trekking to Barany
+            spring.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-9">
@@ -327,18 +288,9 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day9.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Снимаем лагерь и идем через вышеописанный город евражек, продолжаем
-            описывать дугу вокруг Толбачинских вулканов, теперь наблюдаем их с
-            противоположной стороны, с определенных мест в хорошую погоду
-            возможно увидеть не много ни мало 8 вулканов одновременно.
-            Преодолеваем вброд речку Студеная, в паре километров выше каньона
-            она широко разливается и ее глубина становится ниже колена, перейти
-            ее не составляет большого труда, страхуясь палками и страхуя друг
-            друга, как правило туристы называют это действие "аттракционом" и
-            надолго запоминают (в хорошем смысле). Лагерь ставим в районе
-            беседки на ручье Бараньем, рядом с красивым водопадом и поляной
-            эдельвейсов, цветущих в начале июля. В августе здесь впечатляющие
-            поля ягоды (голубика и шикша). Переход 16 км.
+            We pass lava fields and the "city of marmots", finishing semi-circle
+            round Tolbachik volcano, about 12 kilometers to go, fantastic views
+            of Kluchevskoy, Kamen and Tolbacik volcanoes all around.
           </p>
         </div>
       </div>
@@ -355,9 +307,8 @@ const KsuDays = () => {
             aria-controls="collapse-10"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 10. Прогулка к Поляне
-            Эдельвейсов и Бараньим скалам (8км налегке). Переход к стоянке
-            Копыто (8км с рюкзаком).
+            <i className="fas fa-plus mr-2"></i> Day 10. Trekking to Kopyto
+            Mountain.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-10">
@@ -366,11 +317,12 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day10.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            В первой половине дня - радиальный выход к поляне эдельвейсов и на
-            Бараньи скалы. После обеда снимаем лагерь и идем к горе Копыто. Путь
-            идет по горной тундре и в хорошую погоду открываются виды на самые
-            величавые вулканы Камчатки - Ключевской и Камень. Переход 8 км,
-            ночевка в палатках.
+            About three hours to go and we meet hour off-road vehicle which
+            takes us back from mountains to the valley of the Kamchatka River
+            and furhter to the village of natives called Esso. In Esso we attend
+            historical museum and learn many interesting facts about life of
+            local people. Esso is also famouse for its huge thermal swimming
+            pool, here we can have rest after our long trekking in mountains.
           </p>
         </div>
       </div>
@@ -387,12 +339,15 @@ const KsuDays = () => {
             aria-controls="collapse-11"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 11. Переезд в
-            Петропавловск-Камчатский и в гостиницу в Паратунке (600км).
+            <i className="fas fa-plus mr-2"></i> Day 11.
+            Petropavlovsk-Kamchatsky.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-11">
-          <p>Переезд обратно в Петропавловск-Камчатский займет весь Day.</p>
+          <p>
+            The way back to Petropavlovsk takes the whole day, 500 kilometers to
+            go by bus, stay for a night in a comfortable cottage.
+          </p>
         </div>
       </div>
       {/* DAY 12 */}
@@ -408,8 +363,7 @@ const KsuDays = () => {
             aria-controls="collapse-12"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 12. Переезд к вулкану
-            Горелый (100км) и восхождение к кратеру (12 км налегке).
+            <i className="fas fa-plus mr-2"></i> Day 12. Gorely Volcano.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-12">
@@ -418,10 +372,8 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day12.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Переезд в район вулкана Горелый. Восхождение к кратеру вулкана
-            Горелого (1829 метров) налегке - 2-3 часа в зависимости от
-            физической подготовки, 1,5 часа на обход кратера, фотографирование,
-            легкий перекус и спуск к машине, переезд к месту ночевки в палатках.
+            Transfer to the region of Gorely and Mutnovsky volcano, settling a
+            camp, ascending Gorely volcano, night in tents.
           </p>
         </div>
       </div>
@@ -438,8 +390,7 @@ const KsuDays = () => {
             aria-controls="collapse-13"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 13. Восхождение к кратеру
-            вулкана Мутновский (15 км налегке), переезд в гостиницу (100км).
+            <i className="fas fa-plus mr-2"></i> Day 13. Mutnovsly volcano.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-13">
@@ -448,20 +399,7 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day13.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Экскурсия в кратер вулкана Мутновский. Внутри кратера легкий
-            перекус, время на фотографирование, на обратном пути заход к
-            водопаду в каньоне Опасный, возвращение к машине и далее в
-            палаточный лагерь.
-          </p>
-          <p>
-            Абсолютная высота Мутновского - 2323м, один из крупнейших вулканов
-            юга Камчатки, за исторический период времени вулкан извергался не
-            менее 16 раз. Наиболее сильное извержение произошло в 1848 году.
-            Самое недавнее извержение приходится на 2000 год. Имеет сложное
-            строение - несколько сросшихся кратеров. Через разрушенную стенку
-            одного из кратеров туристы могут пройти внутрь мимо высоких отвесных
-            скал и увидеть интенсивную фумарольную деятельность внутри. Вечером
-            - возвращение в гостиницу.
+            Trekking inside the active crater of Mutnovsky volcano.
           </p>
         </div>
       </div>
@@ -478,8 +416,7 @@ const KsuDays = () => {
             aria-controls="collapse-14"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> Day 14. Рыбный рынок, магазин
-            сувениров, трансфер в аэропорт.
+            <i className="fas fa-plus mr-2"></i> Day 14. Departure.
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-14">
@@ -488,8 +425,7 @@ const KsuDays = () => {
               src={require('../../../../img/tour-ksu/small/day14.jpg')}
               alt="Kamchatka from the North to the South"
             />
-            Окончание тура, трансфер в аэропорт с заездом на рыбный рынок и в
-            магазин сувениров.
+            Fish market and gifts shop, then the airport. Goodbye, Kamchatka!
           </p>
         </div>
       </div>

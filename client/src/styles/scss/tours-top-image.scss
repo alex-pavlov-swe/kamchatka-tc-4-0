@@ -50,6 +50,11 @@
   padding: 25px;
   background-color: $card-header-background;
   color: black;
+  iframe {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
   img {
     max-width: 350px;
     float: left;

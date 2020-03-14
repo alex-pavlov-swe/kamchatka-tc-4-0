@@ -1,6 +1,6 @@
 import React from 'react';
 import Contact from '../Contact';
-import MvInfo from './MvInfo';
+import KsuInfo from '../ksu/KsuInfo';
 import MvDays from './MvDays';
 import MvGallery from './MvGallery';
 
@@ -26,20 +26,20 @@ const MvEng = () => {
       <div className="container">
         <div className="row text-center" id="top-info-table">
           <div className="col">
-            <p>14 дней</p>
-            <p>180 000 рублей</p>
+            <p>14 days</p>
+            <p>180 000 rubles</p>
           </div>
           <div className="col">
-            <p>Трекинг: 5 - 12 км в день</p>
-            <p>800 км на автомобиле</p>
+            <p>Trekking: 5 - 12 км per day</p>
+            <p>800 by car</p>
           </div>
           <div className="col">
-            <p>В палатке - 9 ночей</p>
-            <p>В гостинице - 4</p>
+            <p>Nights in tents - 9</p>
+            <p>Hotel - 4 nights</p>
           </div>
           <div className="col">
-            <p>Группа - 10 человек</p>
-            <p>1 гид</p>
+            <p>The group - 10 people</p>
+            <p>1 guide</p>
           </div>
         </div>
       </div>
@@ -51,27 +51,16 @@ const MvEng = () => {
               <p>
                 <img
                   src={require('../../../../img/tour-ksu/ksu-map.jpg')}
-                  alt="карта маршрута Камчатка с Севера на Юг"
+                  alt="the map"
                 />
-                Про маршрут "Активные Вулканы Камчатки" можно сказать примерно
-                то же самое что и про маршрут "Камчатка с Севера на Юг". Это
-                один из лучший и проверенных временем маршрутов на Камчатке. За
-                годы его существования в нашей компании это подтвердили уже
-                сотни прошедших по нему путешественников. Ключевская группа
-                вулканов всегда поражает своими масштабами, красотой и
-                разнообразием.
-              </p>
-              <p>
-                Отличие именно "Активных вулканов" в том что здесь нет пеших
-                переходов с рюкзаками. Группу всегда сопровождает Камаз, а все
-                походы будут однодневными, с возвращением в лагерь к вечеру.
-              </p>
-              <p>
-                На маршруте мы увидим величественную Ключевскую группу вулканов,
-                проявления вулканической активности разных лет и тысячелетий,
-                шлаковую пустыню, лавовые потоки, поля и пещеры, дымящиеся
-                вершины вулканов Ключевской и Безымянный, местных обитателей -
-                медведя, лису, сусликов и сурков.
+                This tour was designed specifically for observing Kamchatka
+                brown bear in its natural habitat. We will spend 3 full days on
+                the banks of the famous Kuril Lake which is a part of Kronotsky
+                Nature Reserve. Kuril Lake is one of the few places in the world
+                where we can safely observe huge brown bears fishing salmon and
+                paying almost no attention to people. Kuril Lake is a perfect
+                place for photographers and everyone who loves observing wild
+                nature.
               </p>
             </div>
           </div>
@@ -98,7 +87,7 @@ const MvEng = () => {
       <div className="container-fluid">
         <div className="row mb-4">
           <MvDays />
-          <MvInfo />
+          <KsuInfo />
         </div>
       </div>
       <div className="container-fluid">
@@ -113,7 +102,7 @@ const MvEng = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/OnZ97O4ATSE"
+                src="https://www.youtube.com/embed/EVZR9ciwKQQ"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

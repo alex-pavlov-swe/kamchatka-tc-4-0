@@ -1,6 +1,6 @@
 import React from 'react';
 import Contact from '../Contact';
-import AvkInfo from './AvkInfo';
+import KsuInfo from '../ksu/KsuInfo';
 import AvkDays from './AvkDays';
 import AvkGallery from './AvkGallery';
 
@@ -12,12 +12,11 @@ const AvkEng = () => {
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
             <div className="col-lg-10">
-              <h3>28 ИЮЛЯ - 09 АВГУСТА 2020</h3>
-              <h3>16 - 28 АВГУСТА 2020</h3>
+              <h3>28 JULY - 09 AUGUST 2020</h3>
+              <h3>16 - 28 AUGUST 2020</h3>
               <h1>Kamchatka Active Volcanoes</h1>
               <h4>
-                Автомобильный тур к вулканам Толбачик, Ключевской, Мутновский,
-                Горелый с однодневными трекингами, морская прогулка
+                A tour to the main volcanoes - Tolbachik, Mutnovsky and Gorely
               </h4>
             </div>
           </div>
@@ -27,20 +26,20 @@ const AvkEng = () => {
       <div className="container">
         <div className="row text-center" id="top-info-table">
           <div className="col">
-            <p>13 дней</p>
-            <p>76 000 рублей</p>
+            <p>13 days</p>
+            <p>76 000 rubles</p>
           </div>
           <div className="col">
-            <p>Трекинг налегке 5 дней (5 - 12 км в день)</p>
-            <p>1500 км на автомобиле</p>
+            <p>Light trekking - 5 days (5 - 12 km)</p>
+            <p>1500 km by car</p>
           </div>
           <div className="col">
-            <p>В палатке - 8 ночей</p>
-            <p>В гостинице - 4</p>
+            <p>Nights in tents - 8</p>
+            <p>In a hotel - 4</p>
           </div>
           <div className="col">
-            <p>Группа - 20 человек</p>
-            <p>2 гида</p>
+            <p>The group - 20 people</p>
+            <p>2 guides</p>
           </div>
         </div>
       </div>
@@ -52,27 +51,15 @@ const AvkEng = () => {
               <p>
                 <img
                   src={require('../../../../img/tour-ksu/ksu-map.jpg')}
-                  alt="карта маршрута Камчатка с Севера на Юг"
+                  alt="the map"
                 />
-                Про маршрут "Активные Вулканы Камчатки" можно сказать примерно
-                то же самое что и про маршрут "Камчатка с Севера на Юг". Это
-                один из лучший и проверенных временем маршрутов на Камчатке. За
-                годы его существования в нашей компании это подтвердили уже
-                сотни прошедших по нему путешественников. Ключевская группа
-                вулканов всегда поражает своими масштабами, красотой и
-                разнообразием.
-              </p>
-              <p>
-                Отличие именно "Активных вулканов" в том что здесь нет пеших
-                переходов с рюкзаками. Группу всегда сопровождает Камаз, а все
-                походы будут однодневными, с возвращением в лагерь к вечеру.
-              </p>
-              <p>
-                На маршруте мы увидим величественную Ключевскую группу вулканов,
-                проявления вулканической активности разных лет и тысячелетий,
-                шлаковую пустыню, лавовые потоки, поля и пещеры, дымящиеся
-                вершины вулканов Ключевской и Безымянный, местных обитателей -
-                медведя, лису, сусликов и сурков.
+                “Kamchatka Active Volcanoes” is like “From the North to the
+                South” tour but doesn’t require carrying a backpack. This is on
+                of the best itineraries in Kamchatka which is proved by time and
+                hundreds of our guests in the previous years. We will see
+                magnificent Kluchevskaya volcanic range with its multiple active
+                and very high volcanoes, solid lava fields, slag cones, volcanic
+                desert and wild animals.
               </p>
             </div>
           </div>
@@ -90,7 +77,7 @@ const AvkEng = () => {
               aria-expanded="false"
             >
               <i className="fas fa-chevron-right"></i>
-              развернуть все вкладки
+              show all details
             </button>
           </div>
         </div>
@@ -99,7 +86,7 @@ const AvkEng = () => {
       <div className="container-fluid">
         <div className="row mb-4">
           <AvkDays />
-          <AvkInfo />
+          <KsuInfo />
         </div>
       </div>
       <div className="container-fluid">
@@ -114,7 +101,7 @@ const AvkEng = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/OnZ97O4ATSE"
+                src="https://www.youtube.com/embed/NBez4S-v5LI"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

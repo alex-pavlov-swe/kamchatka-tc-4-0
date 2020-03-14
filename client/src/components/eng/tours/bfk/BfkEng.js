@@ -1,6 +1,6 @@
 import React from 'react';
 import Contact from '../Contact';
-import BfkInfo from './BfkInfo';
+import KsuInfo from '../ksu/KsuInfo';
 import BfkDays from './BfkDays';
 import BfkGallery from './BfkGallery';
 
@@ -18,7 +18,6 @@ const Bfk = () => {
                 The most beautiful places in the right time - Kluchevskaya
                 volcanic range and the Sourthen volcanoes.
               </h4>
-
             </div>
           </div>
         </div>
@@ -27,20 +26,20 @@ const Bfk = () => {
       <div className="container">
         <div className="row text-center" id="top-info-table">
           <div className="col">
-            <p>14 дней</p>
-            <p>64 000 рублей</p>
+            <p>15 days</p>
+            <p>2390 usd</p>
           </div>
           <div className="col">
-            <p>75км пешком с рюкзаком за 6 дней</p>
-            <p>1500 км на автомобиле</p>
+            <p>By car - 1500 km</p>
+            <p>trekking - 2-10 km per day</p>
           </div>
           <div className="col">
-            <p>В палатке - 9 ночей</p>
-            <p>В гостинице - 4</p>
+            <p>Nights in tents - 9</p>
+            <p>Hotel - 4 nights</p>
           </div>
           <div className="col">
-            <p>Группа - 20 человек</p>
-            <p>2 гида</p>
+            <p>The group - 12 persons</p>
+            <p>2 guides</p>
           </div>
         </div>
       </div>
@@ -52,26 +51,15 @@ const Bfk = () => {
               <p>
                 <img
                   src={require('../../../../img/tour-ksu/ksu-map.jpg')}
-                  alt="карта маршрута Камчатка с Севера на Юг"
+                  alt="the map"
                 />
-                Камчатка с Севера на Юг - по мнению многих это самый лучший
-                пеший маршрут на Камчатке. За годы его существования в нашей
-                компании это подтвердили уже сотни прошедших по нему
-                путешественников. Ключевская группа вулканов всегда поражает
-                своими масштабами, красотой и разнообразием.
-              </p>
-              <p>
-                Это именно пеший маршрут, нужно будет пройти 75 км за 6 дней по
-                абсолютно диким местам без людей, дорог и сотовой связи. Ночевки
-                в палатках. Все личные вещи, как и продукты, нужно нести в
-                рюкзаке за плечами.
-              </p>
-              <p>
-                На маршруте мы увидим величественную Ключевскую группу вулканов,
-                проявления вулканической активности разных лет и тысячелетий,
-                шлаковую пустыню, лавовые потоки, поля и пещеры, дымящиеся
-                вершины вулканов Ключевской и Безымянный, местных обитателей -
-                медведя, лису, сусликов и сурков.
+                We will spend two weeks in the land of volcanoes and bears,
+                shooting the most picturesque views in the right time. This
+                itinerary was designed specifically for photographers. We will
+                bring you to the best photo spots. The most of the time will be
+                spent in the area of Kluchevskoy and Tolbachik volcanoes where
+                we will be able to shoot the highest and the most active
+                volcanoes of Kamchatka peninsula.
               </p>
             </div>
           </div>
@@ -89,7 +77,7 @@ const Bfk = () => {
               aria-expanded="false"
             >
               <i className="fas fa-chevron-right"></i>
-              развернуть все вкладки
+              show all details
             </button>
           </div>
         </div>
@@ -98,7 +86,7 @@ const Bfk = () => {
       <div className="container-fluid">
         <div className="row mb-4">
           <BfkDays />
-          <BfkInfo />
+          <KsuInfo />
         </div>
       </div>
       <div className="container-fluid">
@@ -113,7 +101,7 @@ const Bfk = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/OnZ97O4ATSE"
+                src="https://www.youtube.com/embed/NBez4S-v5LI"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

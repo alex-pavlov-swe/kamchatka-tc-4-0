@@ -52,26 +52,16 @@ const KsuEng = () => {
               <p>
                 <img
                   src={require('../../../../img/tour-ksu/ksu-map.jpg')}
-                  alt="карта маршрута Камчатка с Севера на Юг"
+                  alt="the map"
                 />
-                Камчатка с Севера на Юг - по мнению многих это самый лучший
-                пеший маршрут на Камчатке. За годы его существования в нашей
-                компании это подтвердили уже сотни прошедших по нему
-                путешественников. Ключевская группа вулканов всегда поражает
-                своими масштабами, красотой и разнообразием.
-              </p>
-              <p>
-                Это именно пеший маршрут, нужно будет пройти 75 км за 6 дней по
-                абсолютно диким местам без людей, дорог и сотовой связи. Ночевки
-                в палатках. Все личные вещи, как и продукты, нужно нести в
-                рюкзаке за плечами.
-              </p>
-              <p>
-                На маршруте мы увидим величественную Ключевскую группу вулканов,
-                проявления вулканической активности разных лет и тысячелетий,
-                шлаковую пустыню, лавовые потоки, поля и пещеры, дымящиеся
-                вершины вулканов Ключевской и Безымянный, местных обитателей -
-                медведя, лису, сусликов и сурков.
+                “Kamchatka from the North to the South” tour is on of the best
+                itineraries in Kamchatka which is proved by time and hundreds of
+                our guests in the previous years. We will see magnificent
+                Kluchevskaya volcanic range with its multiple active and very
+                high volcanoes, solid lava fields, slag cones, volcanic desert
+                and wild animals. This tour requires carrying a backpack with
+                all your belongings, a tent and food for 6 days. This will help
+                us to see the most remote and beautiful places.
               </p>
             </div>
           </div>
@@ -89,7 +79,7 @@ const KsuEng = () => {
               aria-expanded="false"
             >
               <i className="fas fa-chevron-right"></i>
-              развернуть все вкладки
+              show all details
             </button>
           </div>
         </div>
@@ -113,7 +103,7 @@ const KsuEng = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/OnZ97O4ATSE"
+                src="https://www.youtube.com/embed/NBez4S-v5LI"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

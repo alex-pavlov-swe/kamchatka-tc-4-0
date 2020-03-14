@@ -2,6 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import './styles/scss/index.scss';
+// Redux
+import { Provider } from 'react-redux';
+import store from './store';
 // Russian Version
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -24,28 +27,30 @@ import BfkEng from './components/eng/tours/bfk/BfkEng';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Route exact path="/" component={Home} />
-      <Switch>
-        <Route exact path="/about" component={About} />
-        <Route exact path="/ksu" component={Ksu} />
-        <Route exact path="/bpk" component={Bpk} />
-        <Route exact path="/avk" component={Avk} />
-        <Route exact path="/mv" component={Mv} />
-        <Route exact path="/patagonia" component={Patagonia} />
-        <Route exact path="/bfk" component={Bfk} />
-        {/* English Version */}
-        <Route exact path="/eng" component={HomeEng} />
-        <Route exact path="/eng/ksu" component={KsuEng} />
-        <Route exact path="/eng/bpk" component={BpkEng} />
-        <Route exact path="/eng/avk" component={AvkEng} />
-        <Route exact path="/eng/mv" component={MvEng} />
-        <Route exact path="/eng/patagonia" component={PatagoniaEng} />
-        <Route exact path="/eng/bfk" component={BfkEng} />
-      </Switch>
-      <Footer />
-    </Router>
+    <Provider store={store}>
+      <Router>
+        <Navbar />
+        <Route exact path="/" component={Home} />
+        <Switch>
+          <Route exact path="/about" component={About} />
+          <Route exact path="/ksu" component={Ksu} />
+          <Route exact path="/bpk" component={Bpk} />
+          <Route exact path="/avk" component={Avk} />
+          <Route exact path="/mv" component={Mv} />
+          <Route exact path="/patagonia" component={Patagonia} />
+          <Route exact path="/bfk" component={Bfk} />
+          {/* English Version */}
+          <Route exact path="/eng" component={HomeEng} />
+          <Route exact path="/eng/ksu" component={KsuEng} />
+          <Route exact path="/eng/bpk" component={BpkEng} />
+          <Route exact path="/eng/avk" component={AvkEng} />
+          <Route exact path="/eng/mv" component={MvEng} />
+          <Route exact path="/eng/patagonia" component={PatagoniaEng} />
+          <Route exact path="/eng/bfk" component={BfkEng} />
+        </Switch>
+        <Footer />
+      </Router>
+    </Provider>
   );
 }
 

@@ -232,8 +232,8 @@ const BpkDays = () => {
             aria-controls="collapse-8"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 6. Переход в долину трех
-            вулканов (15 км с рюкзаком).
+            <i className="fas fa-plus mr-2"></i> День 8. Восхождение на
+            Авачинский вулкан или морская прогулка (облегченный вариант).
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-8">

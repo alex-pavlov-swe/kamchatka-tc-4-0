@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const ToursList = () => {
   return (
@@ -26,7 +26,7 @@ const ToursList = () => {
           </div>
           {/*<!-- BPK -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="/eng/bpk">
+            <Link className="portfolio-box" to="/eng/bpk#tour">
               <img
                 className="img-fluid"
                 src={require('../../../img/tours-index/eng/bpk.jpg')}
@@ -59,7 +59,7 @@ const ToursList = () => {
           </div>
           {/*<!-- MV -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link to="/eng/mv">
+            <Link to="/eng/mv#tour">
               <img
                 className="img-fluid"
                 src={require('../../../img/tours-index/eng/mv.jpg')}
@@ -86,7 +86,7 @@ const ToursList = () => {
           </div>
           {/*<!-- PHOTOTOUR -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="/eng/bfk">
+            <Link className="portfolio-box" to="/eng/bfk#tour">
               <img
                 className="img-fluid"
                 src={require('../../../img/tours-index/eng/bfk.jpg')}

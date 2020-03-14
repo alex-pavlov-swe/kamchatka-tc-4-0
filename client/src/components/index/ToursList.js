@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const ToursList = () => {
   return (
@@ -8,7 +8,7 @@ const ToursList = () => {
         <div className="row">
           {/*<!-- KSU -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link to="/ksu">
+            <Link to="/ksu#tour">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/ksu.jpg')}
@@ -26,7 +26,7 @@ const ToursList = () => {
           </div>
           {/*<!-- BPK -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="/bpk">
+            <Link className="portfolio-box" to="/bpk#tour">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/bpk.jpg')}
@@ -59,7 +59,7 @@ const ToursList = () => {
           </div>
           {/*<!-- MV -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link to="/mv">
+            <Link to="/mv#tour">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/mv.jpg')}
@@ -86,7 +86,7 @@ const ToursList = () => {
           </div>
           {/*<!-- PHOTOTOUR -->*/}
           <div className="col-md-6 col-lg-4">
-            <Link className="portfolio-box" to="bfk">
+            <Link className="portfolio-box" to="bfk#tour">
               <img
                 className="img-fluid"
                 src={require('../../img/tours-index/bfk.jpg')}
