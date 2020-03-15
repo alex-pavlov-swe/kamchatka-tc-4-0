@@ -18,6 +18,7 @@ import Patagonia from './components/tours/patagonia/Patagonia';
 import Bfk from './components/tours/bfk/Bfk';
 // English Version
 import HomeEng from './components/eng/layout/Home';
+import AboutEng from './components/eng/layout/About';
 import KsuEng from './components/eng/tours/ksu/KsuEng';
 import BpkEng from './components/eng/tours/bpk/BpkEng';
 import AvkEng from './components/eng/tours/avk/AvkEng';
@@ -41,6 +42,7 @@ function App() {
           <Route exact path="/bfk" component={Bfk} />
           {/* English Version */}
           <Route exact path="/eng" component={HomeEng} />
+          <Route exact path="/eng/about" component={AboutEng} />
           <Route exact path="/eng/ksu" component={KsuEng} />
           <Route exact path="/eng/bpk" component={BpkEng} />
           <Route exact path="/eng/avk" component={AvkEng} />

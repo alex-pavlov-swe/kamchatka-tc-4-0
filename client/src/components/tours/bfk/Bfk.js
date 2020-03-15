@@ -43,7 +43,7 @@ const BfkEng = () => {
           </div>
         </div>
       </div>
-      {/* TOP INFO TEXT and MAP */}
+      {/* TOP INFO TEXT and MAP 
       <div id="top-info-text">
         <div className="container">
           <div className="row text-center">
@@ -75,7 +75,7 @@ const BfkEng = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
       {/* EXPAND ALL button */}
       <div className="container">
         <div className="row" id="expand-all">

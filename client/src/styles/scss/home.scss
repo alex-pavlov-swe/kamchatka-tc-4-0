@@ -81,3 +81,58 @@
     color: coral;
   }
 }
+
+// Styling for the About section
+
+#about {
+  p {
+    padding-top: 15px;
+  }
+  .guides {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: $card-header-background;
+    color: black;
+    iframe {
+      max-width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    img {
+      max-width: 350px;
+      float: left;
+      margin: 5px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    @include media-breakpoint-down(sm) {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  .team {
+    margin-bottom: 40px;
+    img {
+      width: 100%;
+    }
+    h1 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.top-image-about {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/about/top-about.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}

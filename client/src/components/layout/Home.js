@@ -2,6 +2,7 @@ import React from 'react';
 import Masthead from '../index/Masthead';
 import Services from '../index/Services';
 import TourList from '../index/ToursList';
+import Contact from '../tours/Contact';
 
 const Head = () => {
   return (
@@ -24,6 +25,7 @@ const Head = () => {
           </div>
         </div>
       </div>
+      <Contact />
     </div>
   );
 };

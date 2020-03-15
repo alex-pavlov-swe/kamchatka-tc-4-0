@@ -18,9 +18,12 @@ const Navbar = ({ lang: { lang }, changeLanguage }) => {
       id="mainNav"
     >
       <div className="container">
-        <a className="navbar-brand js-scroll-trigger" href="/#page-top">
+        <Link
+          className="navbar-brand js-scroll-trigger"
+          to={lang === 'rus' ? '/#page-top' : '/eng/#page-top'}
+        >
           {lang === 'rus' ? 'Турклуб Камчатка' : 'Kamchatka Travel'}
-        </a>
+        </Link>
         <button
           className="navbar-toggler navbar-toggler-right"
           type="button"
@@ -43,14 +46,17 @@ const Navbar = ({ lang: { lang }, changeLanguage }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" href="#services">
+              <Link
+                className="nav-link js-scroll-trigger"
+                to={lang === 'rus' ? '/about' : '/eng/about'}
+              >
                 {lang === 'rus' ? 'О Компании' : 'About'}
               </Link>
             </li>
             <li className="nav-item mr-5">
-              <a className="nav-link js-scroll-trigger" href="#contact-form">
+              <Link className="nav-link js-scroll-trigger" to="#contact-form">
                 {lang === 'rus' ? 'Контакты' : 'Contact'}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link

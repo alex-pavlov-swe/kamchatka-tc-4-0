@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Masthead = () => {
   return (
@@ -11,9 +12,9 @@ const Masthead = () => {
             </h1>
           </div>
           <div className="col-lg-8 align-bottom m-4">
-            <a href="#tours-index">
+            <Link to="#tours-list">
               <button className="btn btn-info">Подобрать программу</button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

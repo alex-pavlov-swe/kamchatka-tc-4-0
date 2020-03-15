@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Masthead from '../index/Masthead';
 import Services from '../index/Services';
 import ToursList from '../index/ToursList';
+import Contact from '../tours/Contact';
+import { connect } from 'react-redux';
+import { changeLanguage } from '../../../actions/lang';
+import PropTypes from 'prop-types';
 
-const HomeEng = () => {
+const HomeEng = ({ lang: { lang }, changeLanguage }) => {
+  useEffect(() => {
+    changeLanguage('eng');
+  }, [changeLanguage]);
+  const changeLanguageHandle = newLang => async dispatch => {
+    if (lang !== newLang) {
+      localStorage.lang = newLang;
+      changeLanguage(newLang);
+    }
+  };
   return (
     <div>
       <Masthead />
@@ -24,8 +37,17 @@ const HomeEng = () => {
           </div>
         </div>
       </div>
+      <Contact />
     </div>
   );
 };
 
-export default HomeEng;
+HomeEng.propTypes = {
+  lang: PropTypes.object.isRequired
+};
+
+const mapStateToProps = state => ({
+  lang: state.lang
+});
+
+export default connect(mapStateToProps, { changeLanguage })(HomeEng);
