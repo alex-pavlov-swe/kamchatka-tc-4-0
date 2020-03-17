@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import { connect } from 'react-redux';
 import { changeLanguage } from '../../actions/lang';
 import PropTypes from 'prop-types';
@@ -14,11 +15,12 @@ const Footer = ({ lang: { lang }, changeLanguage }) => {
     <footer className="footer bg-secondary text-center">
       <div className="row">
         <div className="col-lg-4 mb-5 mb-lg-0">
-          <p>
-            {lang === 'rus'
-              ? 'Петропавловск-Камчатский, 2020'
-              : 'Petropavlovsk-Kamchatsky, 2020'}
-          </p>
+          <Link to="/#top-image-home">
+            <img
+              src={require('../../img/logo-home.jpg')}
+              alt="Туры на Камчатку"
+            />
+          </Link>
         </div>
 
         <div className="col-lg-4 mb-5 mb-lg-0">
@@ -59,8 +61,8 @@ const Footer = ({ lang: { lang }, changeLanguage }) => {
         <div className="col-lg-4">
           <p>
             {lang === 'rus'
-              ? 'ООО "Туристический Клуб Камчатка"'
-              : 'Kamchatka Travel Club, LLC'}
+              ? 'Петропавловск-Камчатский, 2020'
+              : 'Petropavlovsk-Kamchatsky, 2020'}
           </p>
         </div>
       </div>

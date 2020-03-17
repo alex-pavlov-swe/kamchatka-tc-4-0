@@ -16,6 +16,9 @@ import Avk from './components/tours/avk/Avk';
 import Mv from './components/tours/mv/Mv';
 import Patagonia from './components/tours/patagonia/Patagonia';
 import Bfk from './components/tours/bfk/Bfk';
+import Ocean from './components/tours/ocean/Ocean';
+import Baken from './components/tours/baken/Baken';
+import Ko from './components/tours/ko/Ko';
 // English Version
 import HomeEng from './components/eng/layout/Home';
 import AboutEng from './components/eng/layout/About';
@@ -40,6 +43,9 @@ function App() {
           <Route exact path="/mv" component={Mv} />
           <Route exact path="/patagonia" component={Patagonia} />
           <Route exact path="/bfk" component={Bfk} />
+          <Route exact path="/ocean" component={Ocean} />
+          <Route exact path="/baken" component={Baken} />
+          <Route exact path="/ko" component={Ko} />
           {/* English Version */}
           <Route exact path="/eng" component={HomeEng} />
           <Route exact path="/eng/about" component={AboutEng} />

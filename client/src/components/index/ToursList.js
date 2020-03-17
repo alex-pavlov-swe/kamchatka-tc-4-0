@@ -100,6 +100,48 @@ const ToursList = () => {
               Ключевская группа вулканов, Южные вулканы.
             </p>
           </div>
+          {/*<!-- OCEAN -->*/}
+          <div className="col-md-6 col-lg-4">
+            <Link className="portfolio-box" to="/ocean#tour">
+              <img
+                className="img-fluid"
+                src={require('../../img/tours-index/ocean.jpg')}
+                alt=""
+              />
+            </Link>
+            <h3>Морское Путшествие</h3>
+            <h4>12 дней, 79 000 рублей</h4>
+            <p>На тримаранах по южным бухтам Камчатки.</p>
+          </div>
+          {/*<!-- BAKEN -->*/}
+          <div className="col-md-6 col-lg-4">
+            <Link className="portfolio-box" to="/baken#tour">
+              <img
+                className="img-fluid"
+                src={require('../../img/tours-index/baken.jpg')}
+                alt=""
+              />
+            </Link>
+            <h3>Бакенинг</h3>
+            <h4>12 дней, 39 000 рублей</h4>
+            <p>Поход по красивейшему и мало посещаемому району Камчатки</p>
+          </div>
+          {/*<!-- KO -->*/}
+          <div className="col-md-6 col-lg-4">
+            <Link className="portfolio-box" to="/ko#tour">
+              <img
+                className="img-fluid"
+                src={require('../../img/tours-index/ko.jpg')}
+                alt=""
+              />
+            </Link>
+            <h3>Краски Осени</h3>
+            <h4>12 дней, 34 000 рублей</h4>
+            <p>
+              Поход с рюкзаком в парк Налычево в сентябре - огненные краски
+              осени и согревающие горячие источники.
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import BpkDays from './BpkDays';
 import BpkGallery from './BpkGallery';
 
 const Bpk = () => {
+  document.title = 'Тур Большое Путешествие по Камчатке';
   return (
     <div id="tour">
       {/* TOP IMAGE */}
@@ -48,10 +49,15 @@ const Bpk = () => {
       <div id="top-info-text">
         <div className="container-fluid">
           <div className="row text-center">
-            <div className="col-lg-6 col-md-12">              
-              <iframe src="https://www.google.com/maps/d/embed?mid=1Eui_0JOPLVWXD4z5rHSxS_Ifc2ngB5NU&hl=en" width="640" height="480" id="tour-map"></iframe>
-              </div>
-              <div className="col-lg-6 col-md-12">              
+            <div className="col-lg-6 col-md-12">
+              <iframe
+                src="https://www.google.com/maps/d/embed?mid=1Eui_0JOPLVWXD4z5rHSxS_Ifc2ngB5NU&hl=en"
+                width="640"
+                height="480"
+                id="tour-map"
+              ></iframe>
+            </div>
+            <div className="col-lg-6 col-md-12">
               <p>
                 Большое путешествие по Камчатке - это классическая программа, в
                 которую включен довольно стандартный набор экскурсий - три
@@ -113,9 +119,9 @@ const Bpk = () => {
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/rW3XBQVO0MQ"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
                 title="Kamchatka Discovery movie"
               ></iframe>
             </div>

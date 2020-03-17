@@ -17,6 +17,7 @@ const HomeEng = ({ lang: { lang }, changeLanguage }) => {
       changeLanguage(newLang);
     }
   };
+  document.title = 'Tours to Kamchatka in summer 2020';
   return (
     <div>
       <Masthead />

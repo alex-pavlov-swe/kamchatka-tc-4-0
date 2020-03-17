@@ -1,6 +1,7 @@
 import React from 'react';
 
 const BpkDays = () => {
+  document.title = 'Kamchatka Discovery Tour';
   const togglePlusIcon = e => {
     /*
     if (e.target.nodeName === 'BUTTON') {

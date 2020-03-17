@@ -5,6 +5,7 @@ import AvkDays from './AvkDays';
 import AvkGallery from './AvkGallery';
 
 const AvkEng = () => {
+  document.title = 'Kamchatka Active Volcanoes';
   return (
     <div id="tour">
       {/* TOP IMAGE */}

@@ -5,6 +5,7 @@ import BfkDays from './BfkDays';
 import BfkGallery from './BfkGallery';
 
 const Bfk = () => {
+  document.title = 'Grand Photography Tour to Kamchatka';
   return (
     <div id="tour">
       {/* TOP IMAGE */}

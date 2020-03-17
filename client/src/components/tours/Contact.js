@@ -60,50 +60,55 @@ const Contact = () => {
   return (
     <Fragment>
       {/* Contact Form */}
-      <div className="row bg-dark text-white text-center" id="contact-form">
-        <div className="col-md-12">
-          <h2 className="mb-4">ФОРМА ДЛЯ СВЯЗИ</h2>
-          <p id="alert" className={status.color}>
-            {status.text}
-          </p>
-          <form>
-            <div>
-              <textarea
-                className="rounded"
-                name="email"
-                id="email"
-                rows="1"
-                placeholder="Ваша почта"
-                value={email}
-                onChange={e => onChange(e)}
-              ></textarea>
-            </div>
-            <div>
-              <textarea
-                className="rounded"
-                name="name"
-                id="name"
-                rows="1"
-                placeholder="Ваше имя"
-                value={name}
-                onChange={e => onChange(e)}
-              ></textarea>
-            </div>
-            <div>
-              <textarea
-                className="rounded"
-                name="text"
-                id="text"
-                rows="5"
-                placeholder="Комментарии - сколько человек, вопросы, пожелания, какая программа"
-                value={text}
-                onChange={e => onChange(e)}
-              ></textarea>
-            </div>
-            <button className="btn btn-light btn-xl" onClick={e => onSubmit(e)}>
-              Отправить заявку
-            </button>
-          </form>
+      <div className="container-fluid">
+        <div className="row bg-dark text-white text-center" id="contact-form">
+          <div className="col-md-12">
+            <h2 className="mb-4">ФОРМА ДЛЯ СВЯЗИ</h2>
+            <p id="alert" className={status.color}>
+              {status.text}
+            </p>
+            <form>
+              <div>
+                <textarea
+                  className="rounded"
+                  name="email"
+                  id="email"
+                  rows="1"
+                  placeholder="Ваша почта"
+                  value={email}
+                  onChange={e => onChange(e)}
+                ></textarea>
+              </div>
+              <div>
+                <textarea
+                  className="rounded"
+                  name="name"
+                  id="name"
+                  rows="1"
+                  placeholder="Ваше имя"
+                  value={name}
+                  onChange={e => onChange(e)}
+                ></textarea>
+              </div>
+              <div>
+                <textarea
+                  className="rounded"
+                  name="text"
+                  id="text"
+                  rows="5"
+                  placeholder="Комментарии - сколько человек, вопросы, пожелания, какая программа"
+                  value={text}
+                  onChange={e => onChange(e)}
+                ></textarea>
+              </div>
+              <button
+                className="btn btn-light btn-xl"
+                onClick={e => onSubmit(e)}
+              >
+                Отправить заявку
+              </button>
+            </form>
+          </div>
         </div>
       </div>
 

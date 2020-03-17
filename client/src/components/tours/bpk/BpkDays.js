@@ -162,7 +162,7 @@ const BpkDays = () => {
             aria-controls="collapse-4"
             onClick={e => togglePlusIcon(e)}
           >
-            <i className="fas fa-plus mr-2"></i> День 4. Осомотр Дачных
+            <i className="fas fa-plus mr-2"></i> День 4. Осмотр Дачных
             термальных источников, резервный день на погоду, возвращение в
             гостиницу.
           </button>
@@ -237,12 +237,12 @@ const BpkDays = () => {
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-8">
+          <h4>Вариант 1</h4>
           <p>
             <img
               src={require('../../../img/tour-bpk/small/day8.jpg')}
               alt="Большое путешествие по Камчатке"
             />
-            <h4>Вариант 1</h4>
             Подъезжаем под вулкан Авачинский и делаем восхождение на его кратер
             (высота 2751 метр). Путь наверх в среднем темпе занимает от 5 до 7
             часов, на кратере нас ждет потрясающий вид на окрестности -

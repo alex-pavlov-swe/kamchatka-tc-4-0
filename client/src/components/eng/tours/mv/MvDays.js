@@ -1,6 +1,7 @@
 import React from 'react';
 
 const MvDays = () => {
+  document.title = 'Bears and Volcanoes - tour to Kuril Lake';
   const togglePlusIcon = e => {
     /*
     if (e.target.nodeName === 'BUTTON') {

@@ -5,6 +5,7 @@ import AvkDays from './AvkDays';
 import AvkGallery from './AvkGallery';
 
 const Avk = () => {
+  document.title = 'Тур Активные Вулканы Камчатки';
   return (
     <div id="tour">
       {/* TOP IMAGE */}

@@ -3,8 +3,10 @@ import Contact from '../Contact';
 import KsuInfo from './KsuInfo';
 import KsuDays from './KsuDays';
 import KsuGallery from './KsuGallery';
+import ReactDOM from 'react-dom';
 
 const Ksu = () => {
+  document.title = 'Тур Камчатка с Севера на Юг';
   return (
     <div id="tour">
       {/* TOP IMAGE */}

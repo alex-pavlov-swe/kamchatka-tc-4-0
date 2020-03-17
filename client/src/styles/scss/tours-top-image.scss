@@ -147,6 +147,45 @@
   background-size: cover;
 }
 
+.top-image-tour-ocean {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-ocean/ocean.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.top-image-tour-baken {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-baken/baken.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.top-image-tour-ko {
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($black, 0.8)} 0%,
+      #{fade-out($black, 0.8)} 100%
+    ),
+    url('../../img/tour-ko/ko.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 #mv_header {
   margin-top: -85px;
   color: white;

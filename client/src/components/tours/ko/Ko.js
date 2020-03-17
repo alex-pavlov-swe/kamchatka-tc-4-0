@@ -1,65 +1,61 @@
 import React from 'react';
 import Contact from '../Contact';
-import MvInfo from './MvInfo';
-import MvDays from './MvDays';
-import MvGallery from './MvGallery';
+import KoInfo from './KoInfo';
+import KoDays from './KoDays';
+import KoGallery from './KoGallery';
 
-const Mv = () => {
-  document.title = 'Тур Медведи и Вулканы';
+const Ko = () => {
+  document.title = 'Тур Поход в Парк Налычево';
   return (
     <div id="tour">
       {/* TOP IMAGE */}
-      <div className="top-image-tour top-image-tour-mv" id="top-image-home">
+      <div className="top-image-tour top-image-tour-ko" id="top-image-home">
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
-            <div className="col-lg-10 align-bottom"></div>
+            <div className="col-lg-10">
+              <h3>15 - 26 СЕНТЯБРЯ 2020</h3>
+              <h1>Краски Осени</h1>
+              <h4>Осенний поход в природный парк Налычево</h4>
+            </div>
           </div>
         </div>
       </div>
       {/* TOP INFO TABLE */}
       <div className="container">
-        <div className="row text-center">
-          <div className="col">
-            <p id="mv_header">Медведи и Вулканы</p>
-          </div>
-        </div>
-      </div>
-      <div className="container">
         <div className="row text-center" id="top-info-table">
           <div className="col">
-            <p>14 дней</p>
-            <p>180 000 рублей</p>
+            <p>12 дней</p>
+            <p>34 000 рублей</p>
           </div>
           <div className="col">
-            <p>Трекинг: 5 - 12 км в день</p>
-            <p>800 км на автомобиле</p>
+            <p>Пеший поход с рюкзаком: 8 дней (18 - 24 км в день)</p>
           </div>
           <div className="col">
-            <p>В палатке - 9 ночей</p>
-            <p>В гостинице - 4</p>
+            <p>В палатке - 3 ночей</p>
+            <p>В домиках - 5</p>
           </div>
           <div className="col">
-            <p>Группа - 10 человек</p>
-            <p>1 гид</p>
+            <p>Группа - 14 человек</p>
+            <p>2 гида</p>
           </div>
         </div>
       </div>
-
-      {/* TOP INFO TEXT and MAP 
+      {/* TOP INFO TEXT and MAP */}
       <div id="top-info-text">
         <div className="container">
           <div className="row text-center">
             <div className="col-lg-12">
               <p>
-                В рамках поездки на заповедное Курильское озеро мы проведем три
-                ночи в палатках на кордоне, совершая однодневные экскурсии под
-                охраной инспекторов заповедника и наблюдая за медведями в их
-                естесвенной среде обитания.
+                <img
+                  src={require('../../../img/tour-ksu/ksu-map.jpg')}
+                  alt="карта Морского Путешествия по Камчатке"
+                />
+                Поход в парк Налычево.
               </p>
             </div>
           </div>
         </div>
-      </div>*/}
+      </div>
       {/* EXPAND ALL button */}
       <div className="container">
         <div className="row" id="expand-all">
@@ -80,12 +76,12 @@ const Mv = () => {
       {/* DAYS and INFO */}
       <div className="container-fluid">
         <div className="row mb-4">
-          <MvDays />
-          <MvInfo />
+          <KoDays />
+          <KoInfo />
         </div>
       </div>
       <div className="container-fluid">
-        <MvGallery />
+        <KoGallery />
         <Contact />
       </div>
       {/* VIDEO */}
@@ -96,7 +92,7 @@ const Mv = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/OnZ97O4ATSE"
+                src="https://www.youtube.com/embed/lUOP4oeefMo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -110,4 +106,4 @@ const Mv = () => {
   );
 };
 
-export default Mv;
+export default Ko;

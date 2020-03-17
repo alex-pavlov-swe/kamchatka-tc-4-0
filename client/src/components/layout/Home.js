@@ -3,28 +3,16 @@ import Masthead from '../index/Masthead';
 import Services from '../index/Services';
 import TourList from '../index/ToursList';
 import Contact from '../tours/Contact';
+import YoutubePlayer from './YoutubePlayer';
 
 const Head = () => {
+  document.title = 'Туры на Камчатку летом 2020';
   return (
     <div>
       <Masthead />
       <Services />
       <TourList />
-      {/* VIDEO  */}
-      <div className="container">
-        <div className="row" id="video">
-          <div className="col-sm-12" id="main-video-wrapper">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/szKbLn4ssW4"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
+      <YoutubePlayer src="https://youtu.be/szKbLn4ssW4" />
       <Contact />
     </div>
   );

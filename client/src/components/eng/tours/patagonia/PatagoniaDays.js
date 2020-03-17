@@ -1,6 +1,7 @@
 import React from 'react';
 
 const PatagoniaDays = () => {
+  document.title = 'Tour to Patagonia in Autumn';
   const togglePlusIcon = e => {
     /*
     if (e.target.nodeName === 'BUTTON') {

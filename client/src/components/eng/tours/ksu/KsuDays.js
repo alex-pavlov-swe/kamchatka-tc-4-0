@@ -1,6 +1,7 @@
 import React from 'react';
 
 const KsuDays = () => {
+  document.title = 'Kamchatka From The North to The South Tour';
   const togglePlusIcon = e => {
     /*
     if (e.target.nodeName === 'BUTTON') {

@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from '../tours/Contact';
 
 const AboutEng = () => {
+  document.title = 'Kamchatka Travel Club Team';
   return (
     <div id="about">
       <div className="top-image-tour top-image-about" id="top-image-home">

@@ -5,6 +5,7 @@ import PatagoniaDays from './PatagoniaDays';
 import PatagoniaGallery from './PatagoniaGallery';
 
 const Patagonia = () => {
+  document.title = 'Тур Осенняя Патагония';
   return (
     <div className="container-fluid top-image-patagonia" id="tour">
       {/* TOP IMAGE*/}
