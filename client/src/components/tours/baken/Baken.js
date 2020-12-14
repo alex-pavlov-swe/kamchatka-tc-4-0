@@ -12,8 +12,7 @@ const Baken = () => {
       <div className="top-image-tour top-image-tour-baken" id="top-image-home">
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
-            <div className="col-lg-10">
-              <h3>02 - 13 СЕНТЯБРЯ 2020</h3>
+            <div className="col-lg-10"> 
               <h1>Поход вокруг вулкана Бакенинг</h1>
               <h4>Поход по красивейшему и мало посещаемому району Камчатки</h4>
             </div>
@@ -25,7 +24,6 @@ const Baken = () => {
         <div className="row text-center" id="top-info-table">
           <div className="col">
             <p>12 дней</p>
-            <p>39 000 рублей</p>
           </div>
           <div className="col">
             <p>Пеший поход с рюкзаком: 10 дней (10 - 18 км в день)</p>
@@ -40,7 +38,7 @@ const Baken = () => {
           </div>
         </div>
       </div>
-      {/* TOP INFO TEXT and MAP */}
+      {/* TOP INFO TEXT and MAP 
       <div id="top-info-text">
         <div className="container">
           <div className="row text-center">
@@ -55,7 +53,7 @@ const Baken = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
       {/* EXPAND ALL button */}
       <div className="container">
         <div className="row" id="expand-all">

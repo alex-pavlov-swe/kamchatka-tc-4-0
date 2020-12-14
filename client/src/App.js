@@ -28,6 +28,8 @@ import AvkEng from './components/eng/tours/avk/AvkEng';
 import MvEng from './components/eng/tours/mv/MvEng';
 import PatagoniaEng from './components/eng/tours/patagonia/PatagoniaEng';
 import BfkEng from './components/eng/tours/bfk/BfkEng';
+//NetlifyForm
+import NetlifyForm from './components/tours/NetlifyForm';
 
 function App() {
   return (
@@ -55,6 +57,7 @@ function App() {
           <Route exact path="/eng/mv" component={MvEng} />
           <Route exact path="/eng/patagonia" component={PatagoniaEng} />
           <Route exact path="/eng/bfk" component={BfkEng} />
+          <Route exact path="/netlifyform" component={NetlifyForm} />
         </Switch>
         <Footer />
       </Router>

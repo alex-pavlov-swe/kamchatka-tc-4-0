@@ -223,34 +223,6 @@ const BfkInfo = () => {
           </ul>
         </div>
       </div>
-      {/* Difficulty */}
-      <div className="card">
-        <div className="card-header">
-          <button
-            id="btn-info-24"
-            className="btn text-left"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapse-24"
-            aria-expanded="false"
-            aria-controls="collapse-24"
-            onClick={e => toggleArrowIcon(e)}
-          >
-            Сложность
-            <i className="fas fa-chevron-down"></i>
-          </button>
-        </div>
-        <div className="card card-body collapse" id="collapse-24">
-          <p>
-            В программе 6-дневный пеший поход, с рюкзаком от 14 до 25 кг
-            предстоит пройти около 75 километров. Вес рюкзака прежде всего
-            зависит от личных вещей, они должны быть собраны оптимально.
-            Добавляется палатка (2кг на человека) и продукты (3-6 кг в
-            зависимости от физических кондиций). Для участия в походе необходимо
-            поддерживать физическую форму иначе будет тяжело.
-          </p>
-        </div>
-      </div>
       {/* The weather */}
       <div className="card">
         <div className="card-header">

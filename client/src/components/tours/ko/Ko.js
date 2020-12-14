@@ -13,7 +13,6 @@ const Ko = () => {
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
             <div className="col-lg-10">
-              <h3>15 - 26 СЕНТЯБРЯ 2020</h3>
               <h1>Краски Осени</h1>
               <h4>Осенний поход в природный парк Налычево</h4>
             </div>
@@ -25,7 +24,6 @@ const Ko = () => {
         <div className="row text-center" id="top-info-table">
           <div className="col">
             <p>12 дней</p>
-            <p>34 000 рублей</p>
           </div>
           <div className="col">
             <p>Пеший поход с рюкзаком: 8 дней (18 - 24 км в день)</p>
@@ -40,7 +38,7 @@ const Ko = () => {
           </div>
         </div>
       </div>
-      {/* TOP INFO TEXT and MAP */}
+      {/* TOP INFO TEXT and MAP 
       <div id="top-info-text">
         <div className="container">
           <div className="row text-center">
@@ -55,7 +53,7 @@ const Ko = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
       {/* EXPAND ALL button */}
       <div className="container">
         <div className="row" id="expand-all">

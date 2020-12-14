@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BpkDays = () => {
-  const togglePlusIcon = e => {
+  const togglePlusIcon = (e) => {
     /*
     if (e.target.nodeName === 'BUTTON') {
       
@@ -28,7 +28,7 @@ const BpkDays = () => {
             data-target="#collapse-1"
             aria-expanded="false"
             aria-controls="collapse-1"
-            onClick={e => togglePlusIcon(e)}
+            onClick={(e) => togglePlusIcon(e)}
           >
             <i className="fas fa-plus mr-2"></i> День 1. Прилет, экскурсия по
             городу.
@@ -73,7 +73,7 @@ const BpkDays = () => {
             data-target="#collapse-2"
             aria-expanded="false"
             aria-controls="collapse-2"
-            onClick={e => togglePlusIcon(e)}
+            onClick={(e) => togglePlusIcon(e)}
           >
             <i className="fas fa-plus mr-2"></i> День 2. Переезд к вулкану
             Горелый (60км), восхождение к кратеру, ночевка в палатках.
@@ -119,7 +119,7 @@ const BpkDays = () => {
             data-target="#collapse-3"
             aria-expanded="false"
             aria-controls="collapse-3"
-            onClick={e => togglePlusIcon(e)}
+            onClick={(e) => togglePlusIcon(e)}
           >
             <i className="fas fa-plus mr-2"></i> День 3. Восхождение в кратер
             активного вулкана Мутновский, экскурсия, возвращение в палаточный
@@ -160,7 +160,7 @@ const BpkDays = () => {
             data-target="#collapse-4"
             aria-expanded="false"
             aria-controls="collapse-4"
-            onClick={e => togglePlusIcon(e)}
+            onClick={(e) => togglePlusIcon(e)}
           >
             <i className="fas fa-plus mr-2"></i> День 4. Осмотр Дачных
             термальных источников, резервный день на погоду, возвращение в
@@ -193,7 +193,7 @@ const BpkDays = () => {
             data-target="#collapse-5"
             aria-expanded="false"
             aria-controls="collapse-5"
-            onClick={e => togglePlusIcon(e)}
+            onClick={(e) => togglePlusIcon(e)}
           >
             <i className="fas fa-plus mr-2"></i> Дни 5 - 7. Сплав на рафтах по
             реке Быстрая, возможность рыбалки и встречи с медведем.
@@ -230,10 +230,11 @@ const BpkDays = () => {
             data-target="#collapse-8"
             aria-expanded="false"
             aria-controls="collapse-8"
-            onClick={e => togglePlusIcon(e)}
+            onClick={(e) => togglePlusIcon(e)}
           >
             <i className="fas fa-plus mr-2"></i> День 8. Восхождение на
-            Авачинский вулкан или морская прогулка (облегченный вариант).
+            Авачинский вулкан или морская прогулка (облегченный вариант -
+            "лайт").
           </button>
         </div>
         <div className="card card-body collapse" id="collapse-8">
@@ -253,7 +254,7 @@ const BpkDays = () => {
             холодного ветра. Спустившись с кратера, на машине возвращаемся в
             гостиницу.
           </p>
-          <h4>Вариант 2 - облегченный</h4>
+          <h4>Вариант 2 - облегченный ("лайт")</h4>
           <p>
             Морская экскурсия. Катер отправляется утром из морпорта
             Петропавловска-Камчатского, выходит в открытый океан через ворота
@@ -278,7 +279,7 @@ const BpkDays = () => {
             data-target="#collapse-14"
             aria-expanded="false"
             aria-controls="collapse-14"
-            onClick={e => togglePlusIcon(e)}
+            onClick={(e) => togglePlusIcon(e)}
           >
             <i className="fas fa-plus mr-2"></i> День 9. Рыбный рынок, магазин
             сувениров, трансфер в аэропорт.

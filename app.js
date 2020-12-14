@@ -8,6 +8,11 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 app.post('/send', async (req, res) => {
   const output = `
   <h3>New request</h3>
@@ -24,8 +29,8 @@ app.post('/send', async (req, res) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: 'test@kamchatka-tc.ru',
-      pass: '12345678'
+      user: 'requests@kamchatka-tc.ru',
+      pass: 'v9KR8RRbDGx847D'
     }
   });
 

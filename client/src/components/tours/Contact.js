@@ -67,7 +67,7 @@ const Contact = () => {
             <p id="alert" className={status.color}>
               {status.text}
             </p>
-            <form>
+            <form name="contact">
               <div>
                 <textarea
                   className="rounded"

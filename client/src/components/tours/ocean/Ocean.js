@@ -13,7 +13,6 @@ const Ocean = () => {
         <div className="container h-75">
           <div className="row h-75 justify-content-center text-center">
             <div className="col-lg-10">
-              <h3>28 ИЮНЯ - 09 ИЮЛЯ 2020</h3>
               <h1>Морское путешествие по Камчатке</h1>
               <h4>
                 Поход на тримаране к труднодоступным и потрясающе красивым
@@ -28,7 +27,6 @@ const Ocean = () => {
         <div className="row text-center" id="top-info-table">
           <div className="col">
             <p>12 дней</p>
-            <p>79 000 рублей</p>
           </div>
           <div className="col">
             <p>Трекинг налегке 5 дней (5 - 12 км в день)</p>

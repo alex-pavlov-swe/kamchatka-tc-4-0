@@ -6,3 +6,4 @@
 /client/build
 *.jpg
 *.psd
+/client/src/config

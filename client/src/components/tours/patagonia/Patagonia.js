@@ -13,7 +13,6 @@ const Patagonia = () => {
         <div className="container h-100">
           <div className="row h-100 justify-content-center text-center">
             <div className="col-lg-10">
-              <h3>11 - 24 АПРЕЛЯ 2021</h3>
               <h1>Путешествие на край Земли</h1>
               <h4>
                 Пеший поход с рюкзаком по Ключевской группе вулканов, а также
@@ -27,7 +26,6 @@ const Patagonia = () => {
       <div className="row text-center" id="top-info-table">
         <div className="col">
           <p>14 дней</p>
-          <p>2800 usd</p>
         </div>
         <div className="col">
           <p>Пешком 5 - 20 км в день</p>
