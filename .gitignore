@@ -7,3 +7,4 @@
 *.jpg
 *.psd
 /client/src/config
+/client/src/actions/serviceAccountKey.json
