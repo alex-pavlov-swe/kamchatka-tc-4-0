@@ -35,14 +35,14 @@ app.post('/send', async (req, res) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: 'test@kamchatka-tc.ru',
-      pass: '12345678',
+      user: 'request@kamchatka-tc.ru',
+      pass: 'siteMAx+2020',
     },
   });
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
-    from: '"Kamchatka Travel" <test@kamchatka-tc.ru>',
+    from: '"Kamchatka Travel" <request@kamchatka-tc.ru>',
     to: 'pavlov.cmc@gmail.com',
     subject: 'Kamchatka-TC request',
     html: output,

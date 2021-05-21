@@ -4,6 +4,9 @@
 /client/vendor
 /clent/img
 /client/build
+/client/build_02_06_2020
+/client/build_03_01_2021
+/client/build_27_03_2020
 *.jpg
 *.psd
 /client/src/config

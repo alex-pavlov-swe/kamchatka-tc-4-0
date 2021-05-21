@@ -57,6 +57,19 @@ const ToursList = () => {
                             Горелый с однодневными трекингами, морская прогулка.
             </p>
                     </div>
+                    {/*<!-- BAKEN -->*/}
+                    <div className="col-md-6 col-lg-4">
+                        <Link className="portfolio-box" to="/baken#tour">
+                            <img
+                                className="img-fluid"
+                                src={require('../../img/tours-index/baken.jpg')}
+                                alt=""
+                            />
+                        </Link>
+                        <h3>Бакенинг</h3>
+                        <h4>13 дней, 47 000 рублей</h4>
+                        <p>Поход по красивейшему и мало посещаемому району Камчатки</p>
+                    </div>
                     {/*<!-- MV -->*/}
                     <div className="col-md-6 col-lg-4">
                         <Link to="/mv#tour">
@@ -112,19 +125,6 @@ const ToursList = () => {
                         <h3>Морское Путшествие</h3>
                         <h4>12 дней</h4>
                         <p>На тримаранах по южным бухтам Камчатки.</p>
-                    </div>
-                    {/*<!-- BAKEN -->*/}
-                    <div className="col-md-6 col-lg-4">
-                        <Link className="portfolio-box" to="/baken#tour">
-                            <img
-                                className="img-fluid"
-                                src={require('../../img/tours-index/baken.jpg')}
-                                alt=""
-                            />
-                        </Link>
-                        <h3>Бакенинг</h3>
-                        <h4>12 дней</h4>
-                        <p>Поход по красивейшему и мало посещаемому району Камчатки</p>
                     </div>
                     {/*<!-- KO -->*/}
                     <div className="col-md-6 col-lg-4">
